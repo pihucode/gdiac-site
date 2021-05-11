@@ -47,3 +47,31 @@ sitemap:
 {% endif %}
 
 @import "11_syntax-highlighting.scss";
+
+.section-container, hr {
+  width: 70%;
+  margin: auto;
+  // background: gray;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  margin: 1.4em 0;
+  align-items: flex-start;
+  // background: whitesmoke
+}
+
+.info-container img {
+  width: 200px;
+  margin-right: 2em;
+  // align-self: center;
+}
+
+.mini-img {
+  width: 100px !important;
+}
+
+.btn-margin-top {
+  margin-top: 4em;
+}

@@ -3,41 +3,61 @@ layout: default
 format: homepage
 ---
 
-<div>
+<div class="section-container">
     <h2>Featured Games</h2>
     <p>banner here</p>
 </div>
 
 {% if page.about_section %}
-<div>
+<div class="section-container">
     <h2>{{ page.about_section.title }}</h2>
-    <p>{{page.about_section.content }} </p>
+    <div class="info-container">
+        {% if page.about_section.image %}
+        <img src="{{ page.about_section.image.url }}" alt="{{ page.about_section.image.caption }}">
+        {% endif %}
+        <p>{{page.about_section.content }} </p>
+    </div>
 </div>
+<hr>
 {% endif %}
 
 {% if page.featured_news %}
-<div>
+<div class="section-container">
     <h2>{{ page.featured_news.title }}</h2>
-    <img width="200" src="{{ page.featured_news.image.url }}" alt="{{ page.featured_news.image.caption }}">
-    <p>{{page.featured_news.content }} </p>
+    <div class="info-container">
+        {% if page.featured_news.image %}
+        <img class="news-img" src="{{ page.featured_news.image.url }}" alt="{{ page.featured_news.image.caption }}">
+        {% endif %}
+        <p>{{page.featured_news.content }} </p>
+    </div>
 </div>
+<hr>
 {% endif %}
 
 {% if page.news_section %}
-<div>
+<div class="section-container">
     <h2>{{ page.news_section.title }}</h2>
-    <div>
+
+    <div class="news-post">
         <h3>{{ page.news1.title }}</h3>
-        <p>{{ page.news1.summary }}</p>
+        <div class="info-container">
+            {% if page.news1.image %}
+            <img class="mini-img" src="{{ page.news1.image.url }}" alt="{{ page.news1.image.caption }}">
+            {% endif %}
+            <p>{{ page.news1.summary }}</p>
+        </div>
     </div>
-    <div>
+
+    <div class="news-post">
         <h3>{{ page.news2.title }}</h3>
-        <p>{{ page.news2.summary }}</p>
+        <div class="info-container">
+            {% if page.news2.image %}
+            <img class="mini-img" src="{{ page.news2.image.url }}" alt="{{ page.news2.image.caption }}">
+            {% endif %}
+            <p>{{ page.news2.summary }}</p>
+        </div>
     </div>
+
+    <a class="radius button small btn-margin-top" href="" title="title">See All News</a>
 </div>
 {% endif %}
-
-<div class="row">
-    content here
-    {{ content }}
-</div><!-- /.row -->
