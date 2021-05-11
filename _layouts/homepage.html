@@ -1,0 +1,43 @@
+---
+layout: default
+format: homepage
+---
+
+<div>
+    <h2>Featured Games</h2>
+    <p>banner here</p>
+</div>
+
+{% if page.about_section %}
+<div>
+    <h2>{{ page.about_section.title }}</h2>
+    <p>{{page.about_section.content }} </p>
+</div>
+{% endif %}
+
+{% if page.featured_news %}
+<div>
+    <h2>{{ page.featured_news.title }}</h2>
+    <img width="200" src="{{ page.featured_news.image.url }}" alt="{{ page.featured_news.image.caption }}">
+    <p>{{page.featured_news.content }} </p>
+</div>
+{% endif %}
+
+{% if page.news_section %}
+<div>
+    <h2>{{ page.news_section.title }}</h2>
+    <div>
+        <h3>{{ page.news1.title }}</h3>
+        <p>{{ page.news1.summary }}</p>
+    </div>
+    <div>
+        <h3>{{ page.news2.title }}</h3>
+        <p>{{ page.news2.summary }}</p>
+    </div>
+</div>
+{% endif %}
+
+<div class="row">
+    content here
+    {{ content }}
+</div><!-- /.row -->

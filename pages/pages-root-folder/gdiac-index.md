@@ -1,0 +1,40 @@
+---
+layout: homepage
+header:
+  image_fullwidth: header_unsplash_12.jpg
+permalink: "/home/"
+
+about_section:
+  title: "About GDIAC"
+  content: "The Game Design Initiative at Cornell (GDIAC) is an interdisciplinary program that is hosted ithin the Department of Computer Science. It offers a minor in game design accessible to Cornell students regardless of college or major. Even though it only offers a minor, the program is a highly-regarded program for technical areas such as software development, technical game design, game analytics, and project management.
+
+  The Game Design Initiative was formed in 2001. It was one of the first official computer game programs of its kind, and the first such program established in an Ivy League school. While computer game programs are becoming more and more common at other Universities, Cornell's program remains strong. The Game Design Initiative allows students to earn a world-class Cornell education while having fun working in computer games.
+
+  Cornell University is located in Ithaca, New York, a city of about 30,000 people in the heart of the Finger Lakes region. Both Cornell and Ithaca offer a wide range of cultural activities, sports, and outdoor activities with the pleasures of both city and country close at hand.
+
+  Information on Visiting Cornell is available from the main Cornell website."
+
+featured_news:
+  title: "THE 2021 GAME DESIGN SHOWCASE RETURNS"
+  image:
+    url: "https://gdiac.cis.cornell.edu/images/front-image.jpg"
+    caption: "public playing games on computers"
+  content: "Because of COVID, last year saw the annual Cornell games showcase go virtual. Instead of holding a showcase in person, we ran it on our course Discord server. Because Discord allows multiple people to stream games simultaneously, it allowed us to capture the festive atmosphere of Showcase in a remote setting. With over 700 people joining us on our server, it was a smashing success.
+
+  And now another year has passed, so it is time to do this again. On Tuesday, May 25th, we will make all of the games for this semester available for download from the official Showcase page. More importantly, we will also issue temporary invites for everyone to join our Discord server. This is open to the general public -- you do not need to be affiliated with Cornell. You can watch other people stream their games, stream yourself playing, or just get technical support if you are having trouble installing.
+
+  There are a lot of high quality games this year, and we are going to be doing some experiments to make the mobile games more streaming friendly. Come and join us on May 2th and see what all the excitement is about!"
+
+news_section:
+  title: "GDIAC News"
+news1:
+  title: "2020 Showcase Goes Online"
+  summary: "Despite the chaos of a somewhat online semester, our games have been going strong. In the past year 2019 favorite Family Style has been featured on the Apple App store and now has over 1.5 million downloads on all platforms. It even has its own Reddit channel.
+
+  After much discussion, we have decided that COVID-19 will not stand in the way of showcase. On Friday, May 22nd, we will make all of the games for this semester available for download from the official Showcase page. But more importantly, we will also issue temporary invites for everyone to join our Discord server. This is open to the general public -- you do not need to be affiliated with Cornell. You can watch other people stream their games, stream yourself playing, or just get technical support if you are having trouble installing.
+
+  There are a lot of high quality games this year and we want them to have the same experience that Family Style did last year -- getting the feedback that they need to push their games to the next level. So come join us on May 22nd!"
+news2:
+  title: "News post 2"
+  summary: "summary 2"
+---
