@@ -2,6 +2,10 @@
   url: "/home/"
   side: left
 
+- title: Gallery
+  url: "/gallery/"
+  side: left
+
 - title: Start
   url: "/"
   side: left

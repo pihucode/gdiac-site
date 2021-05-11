@@ -1,0 +1,21 @@
+---
+layout: default
+format: gallery
+---
+
+{% if page.about_section %}
+<div class="section-container">
+    <h2>{{ page.about_section.title }}</h2>
+    <div class="info-container">
+        {% if page.about_section.image %}
+        <img src="{{ page.about_section.image.url }}" alt="{{ page.about_section.image.caption }}">
+        {% endif %}
+        <p>{{page.about_section.content }} </p>
+    </div>
+</div>
+{% endif %}
+
+<div class="section-container">
+    <h2>Featured Games</h2>
+    <p>banner here</p>
+</div>
