@@ -25,6 +25,14 @@ format: gallery
     {% for game in site.data.showcase %}
     {% capture gid %}{{ game.id }}{% endcapture %}
 	{% assign details = site.data.gallery["2020"][gid] %}
-    <p>{{ details.name }} ({{ details.genre }}) - by {{details.studio}} </p>
+    <div class="info-container">
+        <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
+        <div>
+            <h3>{{ details.name }}</h3>
+            <p>by {{ details.studio }} </p>
+            <p>{{ details.summary }}</p>
+		    <p class="keyword">{{ details.genre }}</p>
+        </div>
+    </div>
     {% endfor %}
 </div>
