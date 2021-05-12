@@ -1,0 +1,922 @@
+astrobeat:
+  name: "Astrobeat"
+  genre: "rhythm, space"
+  engine: "LibGDX"
+  course: 3152
+  summary: >
+    Navigate through the universe by moving Aria's rocket to the rhythm and engage 
+    with each galaxy's unique music in this thrilling rhythm game.
+  description: |
+    Astrobeat is a fast-paced rhythm game meant to give you that feeling of satisfaction 
+    when every action is perfectly in sync. As the character Aria, you navigate through 
+    the universe by traveling from orbit to orbit. Every movement is to the beat of each 
+    galaxies' unique music style, and Aria's passion is to explore them all! Along the 
+    way, you also have the responsibility to jump start dying planets by completing their 
+    rhythm, all while avoiding dangerous asteroids and lasers.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  video: "trailer.mp4"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Octave Games"
+  members:
+    - Shuyan Huang
+    - Thomas Lee
+    - Wenqi Li
+    - James Meyers
+    - Chris Park
+    - Yingyi Shu
+    - Clara Song
+    - Matthew Suh
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+  buttons:
+    - text: Windows
+      link: Astrobeat.Win.zip
+    - text: MacOS
+      link: Astrobeat.Mac.zip
+    - text: Linux
+      link: Astrobeat.Linux.zip
+    - text: Guide
+      link: quickstart.png
+
+fallen_flame:
+  name: "Fallen Flame"
+  genre: "light-and-shadow, exploration"
+  engine: "LibGDX"
+  course: 3152
+  summary: >
+    In this smoky, mysterious world, avoid all who seek your demise and escape the 
+    perilous darkness using your Fire Buddy's light.
+  description: |
+    In a world engulfed in smoke and ash, life thrives in floating cities above the clouds. 
+    But when your airship crashes, you must suddenly survive and escape the perilous darkness. 
+    Your only source of light, and salvation, is your Fire Buddy, who will illuminate your 
+    world as you make your way through eternal darkness to find a way to return home
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  video: "trailer.mp4"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Zenith Games"
+  members:
+    - Laura Sizemore
+    - Bryan Graeser
+    - Lindsey Potoff
+    - Ravina Patel
+    - Leo Liang
+    - Ronnie Dumesh
+    - Max Stallop
+    - Jalil Evans
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+  buttons:
+    - text: Windows
+      link: FallenFlame.Win.zip
+    - text: MacOS
+      link: FallenFlame.Mac.zip
+    - text: Guide
+      link: quickstart.pdf
+
+low_on_ink:
+  name: "Low On Ink"
+  genre: "golf, color matching"
+  engine: "LibGDX"
+  course: 3152
+  summary: >
+    Mix colors  by strategically planning your shots and bouncing around obstacles 
+    as you unify the color scheme in this color-based puzzle game.
+  description: |
+    Low On Ink is a twist on both golf games and color-based puzzle games. Aim your
+    shots, tune their angle and power, and launch them against colored ink cartridges 
+    to add and remove color from them. Ricochet your way around obstacles in 28 
+    intriguing levels as you unify the color scheme of the cartridges, all while 
+    minimizing the number of shots you take.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  video: "trailer.mp4"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Overplayed"
+  members:
+    - Ayesha Gagguturi
+    - Kevin Cook
+    - Ksenia Zhizhimontova
+    - Thor Andreassen
+    - William Xiao
+    - Yiwei Xue
+    - Zicen Pan
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+  buttons:
+    - text: Windows
+      link: LowOnInk.Win.zip
+    - text: MacOS
+      link: LowOnInk.Mac.zip
+    - text: Guide
+      link: quickstart.pdf
+
+modosu:
+  name: "Modosu"
+  genre: "golf, puzzle"
+  course: 3152
+  engine: "LibGDX"
+  summary: >
+    Use careful planning and quick thinking to breathe life back into an ancient 
+    civilization of lonely golems.
+  description: |
+    In a futuristic world now overrun by forests and left as ruins, low energy golems 
+    stumble about aimlessly. Players control a phoenix spirit that revitalizes and 
+    charges each golem upon possession. The goal of the game is to possess each golem 
+    at least once in each level in order to bring them back to life without overcharging 
+    them. Players must navigate the level by strategically positioning golems and 
+    executing difficult shots to reach other golems.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Ludic8"
+  members:
+    - Aidan Hobler
+    - Connor Pugh
+    - Grant Lee
+    - Helen Wang
+    - Jake Sanders
+    - Jesse Potts
+    - May Chen
+    - Stacy Wei
+  screenshots:
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Windows
+      link: Modosu.Win.zip
+    - text: MacOS
+      link: Modosu.Mac.zip
+    - text: Guide
+      link: quickstart.pdf
+
+nite_bite:
+  name: "Nite Bite"
+  genre: "action"
+  course: 3152
+  engine: "LibGDX"
+  summary: >
+    Help Lin race through a bustling night market, swerve around obstacles, and 
+    whack away rival stall owners all while collecting ingredients for their stall 
+    before the market closes.
+  description: |
+    Lin’s goal as a grocery runner in a night market is to bring ingredients back to 
+    their own stalls before time runs out. This night market has not only fresh 
+    ingredients and food stalls, but also pits, enemies, and crowds that make navigating 
+    the busy market even more frantic. Lin can whack their pan in all directions to avoid 
+    the explosions, slippery oil spills, and thieves that block their way.
+
+    **Mac Users**: This group's release has the security manager bug that causes it to
+    crash on first launch.  See the [MacOS Support](../../macos) page for how to resolve
+    this.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  video: "trailer.mp4"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "SOYA Studios"
+  members:
+    - Alicia Wang
+    - Jia Jiunn Ang
+    - Yuet Ming Leung
+    - Cindy Huang
+    - Emily Kam
+    - Emily Leng
+    - Oliver Leung
+    - Yuna Shin
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Windows
+      link: NiteBite.Win.zip
+    - text: MacOS
+      link: NiteBite.Mac.zip
+    - text: Guide
+      link: quickstart.pdf
+
+night_watch:
+  name: "The Night Watch"
+  shortname: "Night Watch"
+  genre: "building, defense"
+  course: 3152
+  engine: "LibGDX"
+  summary: >
+    Strategically place traps and guards about your art gallery to protect it from
+    thieves.
+  description: |
+    Take the role of head of security of the Wuffalo Art Museum and direct a pack of 
+    security guard dogs to patrol the galleries and protect precious artifacts of the 
+    past. Strategically place guards during the day to catch art thieves at night. 
+    The flashlights of the guards will reveal the thieves, but will you  be fast 
+    enough to catch them?
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  video: "trailer.mp4"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Duodecimal Games"
+  members:
+    - Katherine Borg
+    - Benjamin Dacek
+    - Doreen Gui
+    - Lesley Huang
+    - Kexin Lou
+    - Brandon Stein
+    - Jacqueline Woo
+    - Henry Zheng
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Windows
+      link: TheNightWatch.Win.zip
+    - text: MacOS
+      link: TheNightWatch.Mac.zip
+    - text: Guide
+      link: quickstart.png
+
+no_strings_attached:
+  name: "No Strings Attached"
+  genre: "physics, platformer"
+  course: 3152
+  engine: "LibGDX"
+  summary: >
+    Trampoline, cut, and swing using the red strings that connect soulmates throughout 
+    the world to gather enough materials to create your own soulmate.
+  description: |
+    They say that the gods tie an invisible red thread between the fingers of those who 
+    are soulmates. However, Robin is not so fortunate. Born with a severed red string of 
+    fate, Robin embarks on an adventure to fulfill a task the gods did not: create their 
+    soulmate. By trampolining off of others’ strings to catapult through the air or 
+    cutting them to create rope swings off of which Robin can soar, Robin treks through 
+    the world in search of skeins of magical red yarn to finally fashion together a 
+    soulmate of their own.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  video: "trailer.mp4"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Snip Snip Studios"
+  members:
+    - Jamie Poole
+    - Mike Fang
+    - Junhan (Julia) Zeng
+    - Alina Kim
+    - Yue (Olivia) Li
+    - Yiwei (Vivi) Ye
+    - Tae Seo (Chris) Lee
+    - Lily Xie
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+  buttons:
+    - text: Windows
+      link: NoStringsAttached.Win.zip
+    - text: MacOS
+      link: NoStringsAttached.Mac.zip
+    - text: Guide
+      link: quickstart.png
+
+octoplasm:
+  name: "Octoplasm"
+  genre: "strategy, puzzle"
+  course: 3152
+  engine: "LibGDX"
+  summary: >
+    Use the unique abilites of the octopi, Fight, Flight, and Fold, to navigate 
+    through a series of puzzles and escape from pirate ghosts.
+  description: |
+    Fight, Flight, and Fold are a trio of octopi created from an octopus who discovered 
+    a cursed jewel near the wreck of a pirate ship. The vengeful ghosts of the pirate ship 
+    cursed this octopus, splitting their soul and giving each part their own powers that, 
+    once used, kills them. These three new octopi must sacrifice themselves for each other, 
+    giving their counterparts an opening to advance towards the goal and escape the clutches 
+    of the pirate ghosts. At least one octopus must reach the goal for all of them to be saved.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  video: "trailer.mp4"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Nonstop Soup"
+  members:
+    - Tricia Park
+    - Flora Liu
+    - Jarrett Coleman
+    - Thomas Chen,
+    - Stephen Chin
+    - Liam Fallon
+    - Vivienne Tenev
+    - Tianlin Zhao
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Windows
+      link: Octoplasm.Win.zip
+    - text: MacOS
+      link: Octoplasm.Mac.zip
+    - text: QuickStart
+      link: quickstart.png
+
+parole_in_one:
+  name: "Parole in One"
+  genre: "golf, stealth"
+  course: 3152
+  engine: "LibGDX"
+  summary: >
+    In a world where golf is illegal, outwit guards, sink contraband golf balls, and 
+    cause the greatest prison break of the century.
+  description: |
+    In this game where stealth meets golf, solve puzzles and avoid guards only using your 
+    trusty golf ball. Activate alarms and buttons while skillfully navigating through a 
+    prison golf course, but when you get spotted by a guard, be prepared to putt for your 
+    life. With enough skill, you can even beat the par and unlock new ball costumes to 
+    play with. Combining lighthearted fun with stressful escapes, our game promises to 
+    provide all our players with a whimsical fun time!
+
+    **Mac Users**: This group's release has the security manager bug that causes it to
+    crash on first launch.  See the [MacOS Support](../../macos) page for how to resolve
+    this.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Waypoint"
+  members:
+    - Isabel Selin
+    - Yuxiang Yu
+    - Courtney Manbeck
+    - Lucien Eckert
+    - Kevin Klaben
+    - Tony Qin
+    - Betsy Vasquez Valerio
+    - Barry Wang
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+  buttons:
+    - text: Windows
+      link: ParoleInOne.Win.zip
+    - text: MacOS
+      link: ParoleInOne.Mac.zip
+    - text: QuickStart
+      link: quickstart.pdf
+
+rekindle:
+  name: "Rekindle"
+  genre: "light-and-shadow, stealth"
+  course: 3152
+  engine: "LibGDX"
+  summary: >
+    In a world long gone dark, harness the light of fireflies to purify 
+    the lost souls roaming Earth.
+  description: |
+    Violent lost souls roam an Earth long gone dim. Armed only with fireflies, a former 
+    household robot Lux will put itself in harm’s way to vanquish the world’s darkness. 
+    Lux must purify the souls by provoking and luring them into the fireflies’ light, 
+    all while avoiding destruction by the very souls it is trying to save.
+
+    **Mac Users**: This group's release has the security manager bug that causes it to
+    crash on first launch.  See the [MacOS Support](../../macos) page for how to resolve
+    this.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  video: "trailer.mp4"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Unclear Studios"
+  members:
+    - Sophie Zheng
+    - Megan Rochlin
+    - Sungmin Kim
+    - Aiden Yeonsuk Kim
+    - Ava Cohen
+    - Calvin Woo
+    - Emeka Ubakanma
+    - Kevin Huang
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Windows
+      link: Rekindle.Win.zip
+    - text: MacOS
+      link: Rekindle.Mac.zip
+    - text: Guide
+      link: quickstart.png
+
+rubato:
+  name: "Rubato"
+  genre: "action, platformer"
+  course: 3152
+  engine: "LibGDX"
+  summary: >
+    Channel temporal magic, master swift movement, and guide Adagio through complex
+    levels to restore the Altar of Time.
+  description: |
+    Rubato is a combat platformer that combines fast gameplay with beautiful visuals.
+    Players control Adagio, a fragile but determined time spirit who must journey from 
+    her home in the forest to the mountains in order to cleanse the corruption from the 
+    Altar of Time. Along the way, she encounters shadow enemies; by attacking, she “steals” 
+    their time, suspending them in place as platforms. In order to successfully complete 
+    levels, players must adapt to view enemies both as obstacles to be avoided and as 
+    potential stepping stones to reach their goal.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  video: "trailer.mp4"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Glassbox Games"
+  members:
+    - Will Gao
+    - Kenneth Li
+    - Yanlam Ko
+    - Kevin Sun
+    - Ben Shen
+    - Akane Edwards
+    - Jackie Zheng
+    - Catie Rencricca
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Windows
+      link: Rubato.Win.zip
+    - text: MacOS
+      link: Rubato.Mac.zip
+    - text: Guide
+      link: quickstart.png
+
+tempus:
+  name: "Tempus"
+  genre: "two-worlds, platformer"
+  course: 3152
+  engine: "LibGDX"
+  summary: >
+    Help avian Timewalker Fluzzzzzzzzzz save the timeline by timeshifting at
+    at will between the past and the present.
+  description: |
+    A century after the Timewalkers fell, Fluz wakes up to find themselves responsible 
+    for recovering the Timewalkers’ most closely guarded secret in order to save them all.
+    Tempus is a fast-paced action game that launches players into the heat of battle in a 
+    beautiful, strange fantasy world. Players inhabit Fluz, a powerful avian Timewalker, 
+    who can shift at will between the past and the present, evading dangers in one time 
+    or acquiring weapons from the other, as they dash between two worlds to try and 
+    rewrite the timeline.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  video: "trailer.mp4"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Bash Pro Shops"
+  members:
+    - Lillian Hong
+    - Maxwell Tomsick
+    - Annie Deng
+    - Pinxuan Huang
+    - Tim Tran
+    - Chelsea Wang
+    - Elisha Chen
+    - Rose Zhou
+    - Leo Decter
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Windows
+      link: Tempus.Win.zip
+    - text: MacOS
+      link: Tempus.Mac.zip
+    - text: Linux
+      link: Tempus.Linux.zip
+    - text: Guide
+      link: quickstart.png
+
+candy_heist:
+  name: "Candy Heist"
+  genre: "time-management, stealth"
+  course: 4152
+  engine: CUGL
+  summary: >
+    You are both a hacker *and* a babysitter are you protect the baby robot B4-BY, 
+    who must steal cyber_candies and escape an enemy compound.
+  description: |
+    Candy Heist is a mobile stealth game in which the player takes on the roles of 
+    both hacker and babysitter to escort B4-BY the baby robot to steal all the cyber_candies 
+    in an enemy compound. The player switches between playing a hacking minigame and 
+    analyzing the dangers in the compound—all while B4-BY searches the compound on their 
+    own. The player can hack into enemy systems, unlocking doors, reconfiguring 
+    teleporters, and stunning turrets to guide B4-BY towards cyber_candies and avoid 
+    being caught by the patrolling Digital Olfactory Guard System (D.O.G.S.). It’s 
+    like stealing candy with a baby!
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Zero Day Games"
+  members:
+    - Annie Barnett
+    - Vineet Parikh
+    - Jungwon Shin
+    - Janie Walter
+    - Jessie Yee
+    - Yingying Yu
+    - Tony Zhou
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Android (APK)
+      link: "CandyHeist.apk"
+    - text: iOS (FireBase)
+      link: "https://appdistribution.firebase.dev/i/7Vt2qaep"
+    - text: Guide
+      link: quickstart.pdf
+
+deck_jockey:
+  name: "Deck Jocky"
+  genre: "rhythm, card"
+  course: 4152
+  summary: >
+    Play a DJ in this rhythm game, cooking up beats to satisfy the specific requests of their fans!
+  description: |
+    Each card in your hand is a different music loop with a certain genre. Place cards on 
+    tracks of the same genre to start a rhythm-based minigame (like Guitar Hero!). Ace 
+    the rhythm game to get the music going. Cards playing on a track of the same genre 
+    fill up that track’s energy bar. Make sure tracks aren’t left without a card playing 
+    on them to prevent the energy bars from losing energy! Complete all the recipes in a 
+    level before time runs out to clear it!
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "B-side Games"
+  members:
+    - Trey Aguirre
+    - Jagger Brulato,
+    - Alex DeGraff
+    - Anya Hoaglund
+    - Brady Kellum
+    - Stephen Newcomb
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+  buttons:
+    - text: Android (APK)
+      link: "DeckJockey.apk"
+    - text: Guide
+      link: quickstart.pdf
+
+eidolon:
+  name: "Eidolon"
+  genre: "puzzle, geometry"
+  course: 4152
+  summary: >
+    Cast and conjure your way through puzzles by drawing magic sigils, 
+    banishing spirits along the way, to unlock a path to freedom.
+  description: |
+    Dark forces keep Saga trapped in a haunted mansion!  The apprentice sorcerer will 
+    have only their knowledge of magic and a limited supply of salt to make their escape. 
+    Each level will pose new challenges, and it's up to you to carefully plan out your 
+    moves or risk running out of salt and leaving Saga trapped forever.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Synergy Studios"
+  members:
+    - Chinmay Gangurde
+    - Logan Lam
+    - Robert Morgowicz
+    - Niara Noctyrna
+    - Everett White
+    - Adrien Zheng
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+  buttons:
+    - text: Android (APK)
+      link: "Eidolon.apk"
+
+milky_way_gourmet:
+  name: "Milky Way Gourmet"
+  genre: "physics, gravity"
+  course: 4152
+  summary: >
+    Fly through space and cook up orders to serve hungry customers demanding to be fed; 
+    orbit and launch from planets to saute, season,and serve scrumptious dishes to these 
+    eager patrons.
+  description: |
+    In a galaxy full of hungry customers, the player flies through space as a "saucer,” 
+    orbiting and launching from planets to cook, season, and serve scrumptious dishes to 
+    eager patrons. The galaxy is the kitchen, the sun is the stove, and ingredients orbit 
+    various planets. The player needs to collect the relevant ingredients and execute each 
+    dish with proper timing to get that high score!
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Coconaut Studio"
+  members:
+    - Jamie Lai
+    - Eric Rubenstein
+    - Jackson Rong
+    - Vivian Zhuang
+    - Imani Chilongani
+    - Yiwei Sun
+    - Alex Ozer
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Android (APK)
+      link: "MilkyWayGourmet.apk"
+
+runecasters:
+  name: "Runecasters"
+  genre: "turn-based strategy"
+  course: 4152
+  summary: >
+    Focus on creative combination casting and tactical positioning in this turn-based
+    strategy game.
+  description: |
+    Runecasters is a fast-paced turn based strategy game with an emphasis on quick thinking, 
+    opponent action prediction, and creative resource utility. Players take turns moving 
+    around the board and casting damaging spells at one another in a deul until only one 
+    remains! Players can combine their runes to create more powerful versions of the spells 
+    they cast, in exchange for a modicum of maneuverability.
+
+    This game does not support networking.  This is a pass-and play game where the players
+    take turns by passing the mobile device to each other.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Pirate Ship Productions"
+  members:
+    - Morgan Aloia
+    - Sean Brooks
+    - Pedro Bobrow
+    - Matt Chansky
+    - Talia Lindner
+    - Brynn Szczesniak
+    - Allie Shuldman
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: iOS (TestFlight)
+      link: "https://testflight.apple.com/join/tTUDxtQE"
+    - text: Guide
+      link: quickstart.png
+
+spectacle:
+  name: "Spectacle!"
+  genre: "physics, pinball"
+  course: 4152
+  summary: >
+    With a simple tap to the screen, defeat your sassy digital nemesis by activating 
+    and deactivating playfield elements to deflect and hurl their pinballs right 
+    back at them as they try to distract you.
+  description: |
+    It is human versus machine in this pinball game gone rogue! Throughout history, 
+    pinball machines have devoured the pocket change of children, representing the 
+    evils of gambling. When this modern-day pinball game is downloaded onto a phone,
+    players must play against their now-compromised device in order to banish this evil 
+    entity once and for all!
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  video: "trailer.mp4"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Mooove Studios"
+  members:
+    - Christopher Talavera
+    - Erie Adames
+    - Yashdeep Sahota
+    - Sheri Guo
+    - Joy Zhang
+    - Shan Parikh
+    - Naina Pai
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Android (APK)
+      link: "Spectacle!.apk"
+    - text: Guide
+      link: quickstart.png
+
+spectral:
+  name: "Spectral"
+  course: 4152
+  genre: "color-matching strategy game"
+  summary: >
+    Quickly arrange colorful crystals to eliminate the ghosts on your path before 
+    they reach your house.
+  description: |
+    You are troubled by colorful ghosts that awake at night in the graveyard by your house. 
+    Strategically place luminous crystals to purify the incoming ghosts. Combine crystal 
+    beams to eliminate ghosts of unique colors. Harness the power of the crystals and 
+    survive the night.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  video: "trailer.mp4"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Enigma Studios"
+  members:
+    - Jintana Cunningham
+    - Sophie Lan
+    - Joo Hyun Lee
+    - Ariel Lin
+    - Scott Wang
+    - Andrew Xu
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+  buttons:
+    - text: Android (APK)
+      link: "Spectral.apk"
+    - text: Guide
+      link: quickstart.png
+
+sweetspace:
+  name: "SweetSpace"
+  id: "sweetspace"
+  course: 4152
+  genre: "multiplayer cooperative"
+  summary: >
+    Cosmic radiation is tearing through your ship; you and your friends are the only 
+    donuts who can stop it!
+  description: |
+    Donut waste time as you roll and patch your way through these bite-sized holes in your 
+    ship. You’ll need to communicate and cooperate to achieve your dream of a sweet, sweet space.
+
+    This multiplayer game supports cross platform networking
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  video: "trailer.mp4"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "onewordstudios"
+  members:
+    - Demi Chang
+    - Aashna Saxena
+    - Sam Sorenson
+    - Michael Xing
+    - Jeffrey Yao
+    - Wendy Zhang
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Android (Play Store)
+      link: "https://onewordstudios.fun/sweetspace/dev/beta.html"
+    - text: iOS (TestFlight)
+      link: "https://onewordstudios.fun/sweetspace/dev/beta.html"
+    - text: Guide
+      link: quickstart.pdf
+
+swipe_right:
+  name: "Swipe Right"
+  course: 4152
+  genre: "dating, puzzle"
+  summary: >
+    Play as a matchmaker in this dating puzzle game to help a Goal Partner meet 
+    their perfect match.
+  description: |
+    Swipe Right is an online dating puzzle game in which a Goal Partner longs to meet 
+    their perfect match. Players receive partial information about a Goal Partner’s likes 
+    and dislikes. They must swipe on potential matches (represented as cards) that have 
+    traits that they believe will be a match in order to reveal information about the 
+    Goal Partner. Once players learn enough about the Goal Partner through multiple 
+    rounds, they must make a verdict on which of the given profiles from the deck is a 
+    Perfect Match.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  video: "trailer.mp4"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Cupid Studios"
+  members:
+    - Arielle Goldberg
+    - Jason Russo
+    - Tracy Goldman
+    - Jiarui Hu
+    - Matthew Shih
+    - Kimberly Baum
+    - Olivia Xiang
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Android (APK)
+      link: "SwipeRight.apk"
+    - text: Guide
+      link: quickstart.pdf

@@ -19,3 +19,12 @@ format: gallery
     <h2>Featured Games</h2>
     <p>banner here</p>
 </div>
+
+<div class="section-container">
+    <h2>All Games</h2>
+    {% for game in site.data.showcase %}
+    {% capture gid %}{{ game.id }}{% endcapture %}
+	{% assign details = site.data.gallery["2020"][gid] %}
+    <p>{{ details.name }} ({{ details.genre }}) - by {{details.studio}} </p>
+    {% endfor %}
+</div>

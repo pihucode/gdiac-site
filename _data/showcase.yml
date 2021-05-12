@@ -1,0 +1,84 @@
+- name: "Astrobeat"
+  id: "astrobeat"
+  course: 3152
+
+- name: "Fallen Flame"
+  id: "fallen_flame"
+  course: 3152
+
+- name: "Low On Ink"
+  id: "low_on_ink"
+  course: 3152
+
+- name: "Modosu"
+  id: "modosu"
+  course: 3152
+
+- name: "Nite Bite"
+  id: "nite_bite"
+  course: 3152
+
+- name: "The Night Watch"
+  shortname: "Night Watch"
+  id: "night_watch"
+  course: 3152
+
+- name: "No Strings Attached"
+  id: "no_strings_attached"
+  course: 3152
+
+- name: "Octoplasm"
+  id: "octoplasm"
+  course: 3152
+
+- name: "Parole in One"
+  id: "parole_in_one"
+  course: 3152
+
+- name: "Rekindle"
+  id: "rekindle"
+  course: 3152
+
+- name: "Rubato"
+  id: "rubato"
+  course: 3152
+
+- name: "Tempus"
+  id: "tempus"
+  course: 3152
+
+- name: "Candy Heist"
+  id: "candy_heist"
+  course: 4152
+
+- name: "Deck Jocky"
+  id: "deck_jockey"
+  course: 4152
+
+- name: "Eidolon"
+  id: "eidolon"
+  course: 4152
+
+- name: "Milky Way Gourmet"
+  id: "milky_way_gourmet"
+  course: 4152
+
+- name: "Runecasters"
+  id: "runecasters"
+  course: 4152
+
+- name: "Spectacle!"
+  id: "spectacle"
+  course: 4152
+
+- name: "Spectral"
+  id: "spectral"
+  course: 4152
+
+- name: "SweetSpace"
+  id: "sweetspace"
+  course: 4152
+
+- name: "Swipe Right"
+  id: "swipe_right"
+  course: 4152
