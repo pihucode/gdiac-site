@@ -81,7 +81,12 @@ sitemap:
 .keyword {
   display: inline;
   padding: 2px 6px;
+  margin-right: 8px;
   border: 1px solid black;
   border-radius: 6px;
   text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
 }

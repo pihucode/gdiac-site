@@ -2,6 +2,7 @@
 layout: default
 format: gallery
 ---
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/gallery_scripts.js"></script>
 
 {% if page.about_section %}
 <div class="section-container">
@@ -22,17 +23,62 @@ format: gallery
 
 <div class="section-container">
     <h2>All Games</h2>
+
+    <div class="filter-container">
+        <div>
+            <h4>Genres</h4>
+            {% assign genres = site.data.categories.genres | sort %}
+            {% for genre in genres %}
+            <ul>
+                <li>
+                    <input 
+                    type="checkbox" 
+                    class="check-box"
+                    name="selectedGenres" 
+                    value="{{ genre }}" 
+                    id="{{ genre }}">
+                    <label for="{{ genre }}">{{ genre }}</label>
+                </li>
+            </ul>
+            {% endfor %}
+        </div>
+        <div>
+            <h4>Course</h4>
+            {% assign courses = site.data.categories.courses | sort %}
+            {% for course in courses %}
+            <ul>
+                <li>
+                    <input 
+                    type="checkbox" 
+                    class="check-box"
+                    name="selectedCourses" 
+                    value="{{ course }}" 
+                    id="{{ course }}">
+                    <label for="{{ course }}">{{ course }}</label>
+                </li>
+            </ul>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% assign id = 0 %}
     {% for game in site.data.showcase %}
+    {% assign id = id | plus:1 %}
     {% capture gid %}{{ game.id }}{% endcapture %}
-	{% assign details = site.data.gallery["2020"][gid] %}
-    <div class="info-container">
+    {% assign details = site.data.gallery["2020"][gid] %}
+    <div id="{{ id }}" class="info-container">
         <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
         <div>
             <h3>{{ details.name }}</h3>
             <p>by {{ details.studio }} </p>
             <p>{{ details.summary }}</p>
-		    <p class="keyword">{{ details.genre }}</p>
+
+            {% for genre in details.genres %}
+            <p class="keyword">{{ genre }}</p>
+            {% endfor %}
         </div>
     </div>
     {% endfor %}
 </div>
+
+
