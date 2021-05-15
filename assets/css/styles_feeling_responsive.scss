@@ -79,14 +79,68 @@ sitemap:
 
 // GALLERY LAYOUT  ====================
 .keyword {
-  display: inline;
+  display: inline-block;
   padding: 2px 6px;
-  margin-right: 8px;
+  margin: 0 8px 8px 0;
   border: 1px solid black;
   border-radius: 6px;
   text-transform: uppercase;
 }
 
 .hidden {
-  display: none;
+  display: none !important;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: auto;
+}
+
+// .browse-section {
+//   width: 550px;
+// }
+
+.browse-section h2 {
+  margin: 0;
+}
+
+.games {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 6px;
+  margin: 1em;
+}
+
+.game-container img {
+  display: inline;
+  width: 200px;
+  height: 200px;
+}
+
+.game-container h3 {
+  margin: 0;
+  margin-top: 8px;
+}
+
+.detail-container {
+  padding: 1.4em;
+}
+
+// filter side column
+.filter-section {
+  flex-shrink: 0;
+  width: 200px;
+  background: whitesmoke;
 }

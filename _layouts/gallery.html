@@ -21,10 +21,8 @@ format: gallery
     <p>banner here</p>
 </div>
 
-<div class="section-container">
-    <h2>All Games</h2>
-
-    <div class="filter-container">
+<div class="gallery">
+    <div class="filter-section">
         <div>
             <h4>Genres</h4>
             {% assign genres = site.data.categories.genres | sort %}
@@ -61,24 +59,29 @@ format: gallery
         </div>
     </div>
 
-    {% assign id = 0 %}
-    {% for game in site.data.showcase %}
-    {% assign id = id | plus:1 %}
-    {% capture gid %}{{ game.id }}{% endcapture %}
-    {% assign details = site.data.gallery["2020"][gid] %}
-    <div id="{{ id }}" class="info-container">
-        <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
-        <div>
-            <h3>{{ details.name }}</h3>
-            <p>by {{ details.studio }} </p>
-            <p>{{ details.summary }}</p>
+    <div class="browse-section">
+    <h2>Browse All Games</h2>
+    <div class="games">
+        {% assign id = 0 %}
+        {% for game in site.data.showcase %}
+        {% assign id = id | plus:1 %}
+        {% capture gid %}{{ game.id }}{% endcapture %}
+        {% assign details = site.data.gallery["2020"][gid] %}
+        <div id="{{ id }}" class="game-container">
+            <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
+            <div class="detail-container">
+                <h3>{{ details.name }}</h3>
+                <p>by {{ details.studio }} </p>
+                <p>{{ details.summary }}</p>
 
-            {% for genre in details.genres %}
-            <p class="keyword">{{ genre }}</p>
-            {% endfor %}
+                {% for genre in details.genres %}
+                <p class="keyword">{{ genre }}</p>
+                {% endfor %}
+            </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
+    </div>
 </div>
 
 
