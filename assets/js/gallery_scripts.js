@@ -1,7 +1,7 @@
 ---
 ---
 
-// checkbox filter code source: https://codepen.io/piotrek/pen/mXpRmQ?editors=1010
+// checkbox filter source: https://codepen.io/piotrek/pen/mXpRmQ?editors=1010
 var allCheckboxes = [];
 var checked = {};
 
@@ -16,6 +16,22 @@ window.onload = function () {
     Array.prototype.forEach.call(allCheckboxes, function (el) {
         el.addEventListener('change', toggleCheckbox);
     });
+
+    // Collapsible containers
+    // Source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible_symbol
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("expand-content");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        } 
+    });
+    };
 };
 
 function toggleCheckbox(e) {
@@ -30,6 +46,7 @@ function getChecked(name) {
 };
 
 function filterResults() {
+    var hasResult = false;
     var id = 0;
     {% for game in site.data.showcase %}
     {% capture gid %}{{ game.id }}{% endcapture %}
@@ -46,10 +63,18 @@ function filterResults() {
     // Hide classes that do not match selected options
     if (matchesGenre && matchesCourse) {
         removeClass(gameContainer, "hidden");
+        hasResult = true;
     } else {
         addClass(gameContainer, "hidden");
     };
     {% endfor %}
+
+    var noResults = document.getElementById("no-results");
+    if (!hasResult) {
+        removeClass(noResults, "hidden");
+    } else {
+        addClass(noResults, "hidden");
+    };
 };
 
 // Code source: https://stackoverflow.com/questions/26736587/how-to-add-and-remove-classes-in-javascript-without-jquery

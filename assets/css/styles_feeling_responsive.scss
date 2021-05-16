@@ -91,19 +91,21 @@ sitemap:
   display: none !important;
 }
 
+#no-results {
+  font-style: italic;
+  padding-left: 2em;
+}
+
+.browse-games {
+  width: 85%;
+  margin: auto;
+  margin-top: 2em;
+}
+
 .gallery {
   display: flex;
   flex-direction: row;
-  width: 85%;
-  margin: auto;
-}
-
-// .browse-section {
-//   width: 550px;
-// }
-
-.browse-section h2 {
-  margin: 0;
+  margin-top: 1.4em;
 }
 
 .games {
@@ -113,8 +115,9 @@ sitemap:
   justify-content: space-evenly;
 }
 
-.game-container {
-  display: flex;
+// rectangular game container with summary text
+.details-rect {
+  display: none;//flex;
   flex-direction: row;
   align-items: flex-start;
   width: 500px;
@@ -123,24 +126,79 @@ sitemap:
   margin: 1em;
 }
 
-.game-container img {
-  display: inline;
+.details-rect img {
   width: 200px;
-  height: 200px;
 }
 
-.game-container h3 {
+.details-rect h3 {
   margin: 0;
   margin-top: 8px;
 }
 
-.detail-container {
+.game-info {
   padding: 1.4em;
 }
 
-// filter side column
+// mini game container without summary text
+.details-mini {
+  width: 200px;
+  padding: 1.6em;
+  padding-top: 0;
+}
+
+// FILTER SIDE COLUMN  ====================
 .filter-section {
   flex-shrink: 0;
   width: 200px;
   background: whitesmoke;
+  align-self: flex-start;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.list-item label, .list-item input {
+  margin: 0;
+}
+
+.list-item label {
+  text-transform: capitalize;
+  padding: 8px 24px 8px 0;
+}
+
+// Collapsible style source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible_symbol
+.collapsible {
+  // background-color: #777;
+  // color: white;
+  cursor: pointer;
+  padding: 14px;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.collapsible:hover {
+  // background-color: #555;
+  text-decoration: underline;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: rgb(0, 0, 0);
+  float: right;
+  margin-left: 5px;
+}
+
+.expand-content:after {
+  content: '\2212';
+}
+
+.content {
+  max-height: 0;
+  // margin-top: 14px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
