@@ -85,3 +85,33 @@ sitemap:
   border-radius: 6px;
   text-transform: uppercase;
 }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8%;
+}
+
+.blog-row {
+  margin-bottom: 10vh;
+}
+
+.blog-subheader {
+  margin: 5px;
+}
+.blog-container{
+  display:flex;
+  flex-direction:row;
+}
+.blog-content{
+  display:flex;
+  flex-direction: column;
+}
+.blog-image{
+  width:150px !important;
+  margin-right: 10px;
+}
+img{
+  max-width: 100vw !important;
+}

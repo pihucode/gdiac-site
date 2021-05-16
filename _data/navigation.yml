@@ -67,16 +67,16 @@
     - title: "Roadmap"
       url: "/roadmap/"
 
-- title: Blog
+- title: News
   url: "/blog/"
-  side: left
+  side: right
   dropdown:
-    - title: "Blog Archive"
+    - title: "News Archive"
       url: "/blog/archive/"
 
-- title: "Search"
-  url: "/search/"
-  side: right
+# - title: "Search"
+#   url: "/search/"
+#   side: right
 
 - title: "Contact"
   url: "/contact/"
