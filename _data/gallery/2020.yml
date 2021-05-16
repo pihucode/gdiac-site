@@ -1,6 +1,9 @@
 astrobeat:
   name: "Astrobeat"
   genre: "rhythm, space"
+  genres:
+    - rhythm
+    - space
   engine: "LibGDX"
   course: 3152
   summary: >
@@ -48,6 +51,9 @@ astrobeat:
 fallen_flame:
   name: "Fallen Flame"
   genre: "light-and-shadow, exploration"
+  genres:
+    - exploration
+    - light-and-shadow
   engine: "LibGDX"
   course: 3152
   summary: >
@@ -91,6 +97,9 @@ fallen_flame:
 low_on_ink:
   name: "Low On Ink"
   genre: "golf, color matching"
+  genres:
+    - golf
+    - color matching
   engine: "LibGDX"
   course: 3152
   summary: >
@@ -134,6 +143,9 @@ low_on_ink:
 modosu:
   name: "Modosu"
   genre: "golf, puzzle"
+  genres:
+    - golf
+    - puzzle
   course: 3152
   engine: "LibGDX"
   summary: >
@@ -178,6 +190,8 @@ modosu:
 nite_bite:
   name: "Nite Bite"
   genre: "action"
+  genres:
+    - action
   course: 3152
   engine: "LibGDX"
   summary: >
@@ -229,6 +243,9 @@ night_watch:
   name: "The Night Watch"
   shortname: "Night Watch"
   genre: "building, defense"
+  genres:
+    - building
+    - defense
   course: 3152
   engine: "LibGDX"
   summary: >
@@ -274,6 +291,9 @@ night_watch:
 no_strings_attached:
   name: "No Strings Attached"
   genre: "physics, platformer"
+  genres:
+    - physics
+    - platformer
   course: 3152
   engine: "LibGDX"
   summary: >
@@ -320,6 +340,9 @@ no_strings_attached:
 octoplasm:
   name: "Octoplasm"
   genre: "strategy, puzzle"
+  genres:
+    - strategy
+    - puzzle
   course: 3152
   engine: "LibGDX"
   summary: >
@@ -366,6 +389,9 @@ octoplasm:
 parole_in_one:
   name: "Parole in One"
   genre: "golf, stealth"
+  genres:
+    - golf
+    - stealth
   course: 3152
   engine: "LibGDX"
   summary: >
@@ -413,6 +439,9 @@ parole_in_one:
 rekindle:
   name: "Rekindle"
   genre: "light-and-shadow, stealth"
+  genres:
+    - light-and-shadow
+    - stealth
   course: 3152
   engine: "LibGDX"
   summary: >
@@ -461,6 +490,9 @@ rekindle:
 rubato:
   name: "Rubato"
   genre: "action, platformer"
+  genres:
+    - action
+    - platformer
   course: 3152
   engine: "LibGDX"
   summary: >
@@ -508,6 +540,9 @@ rubato:
 tempus:
   name: "Tempus"
   genre: "two-worlds, platformer"
+  genres:
+    - two-worlds
+    - platformer
   course: 3152
   engine: "LibGDX"
   summary: >
@@ -558,6 +593,9 @@ tempus:
 candy_heist:
   name: "Candy Heist"
   genre: "time-management, stealth"
+  genres:
+    - time-management
+    - stealth
   course: 4152
   engine: CUGL
   summary: >
@@ -604,6 +642,9 @@ candy_heist:
 deck_jockey:
   name: "Deck Jocky"
   genre: "rhythm, card"
+  genres:
+    - rhythm
+    - card
   course: 4152
   summary: >
     Play a DJ in this rhythm game, cooking up beats to satisfy the specific requests of their fans!
@@ -642,6 +683,9 @@ deck_jockey:
 eidolon:
   name: "Eidolon"
   genre: "puzzle, geometry"
+  genres:
+    - puzzle
+    - geometry
   course: 4152
   summary: >
     Cast and conjure your way through puzzles by drawing magic sigils, 
@@ -677,6 +721,9 @@ eidolon:
 milky_way_gourmet:
   name: "Milky Way Gourmet"
   genre: "physics, gravity"
+  genres:
+    - physics
+    - gravity
   course: 4152
   summary: >
     Fly through space and cook up orders to serve hungry customers demanding to be fed; 
@@ -716,6 +763,8 @@ milky_way_gourmet:
 runecasters:
   name: "Runecasters"
   genre: "turn-based strategy"
+  genres:
+    - turn-based strategy
   course: 4152
   summary: >
     Focus on creative combination casting and tactical positioning in this turn-based
@@ -759,6 +808,9 @@ runecasters:
 spectacle:
   name: "Spectacle!"
   genre: "physics, pinball"
+  genres:
+    - physics
+    - pinball
   course: 4152
   summary: >
     With a simple tap to the screen, defeat your sassy digital nemesis by activating 
@@ -802,6 +854,9 @@ spectral:
   name: "Spectral"
   course: 4152
   genre: "color-matching strategy game"
+  genres:
+    - color-matching
+    - strategy
   summary: >
     Quickly arrange colorful crystals to eliminate the ghosts on your path before 
     they reach your house.
@@ -841,6 +896,8 @@ sweetspace:
   id: "sweetspace"
   course: 4152
   genre: "multiplayer cooperative"
+  genres:
+    - multiplayer cooperative
   summary: >
     Cosmic radiation is tearing through your ship; you and your friends are the only 
     donuts who can stop it!
@@ -882,6 +939,9 @@ swipe_right:
   name: "Swipe Right"
   course: 4152
   genre: "dating, puzzle"
+  genres:
+    - dating
+    - puzzle
   summary: >
     Play as a matchmaker in this dating puzzle game to help a Goal Partner meet 
     their perfect match.
