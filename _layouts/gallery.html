@@ -64,10 +64,10 @@ format: gallery
                 </div>
             </div>
             <div>
-                <h4 class="collapsible">Release Year</h4>
+                <h4 class="collapsible">Release Years</h4>
                 <div class="content">
                 <ul>
-                {% assign years = site.data.categories.years | sort %}
+                {% assign years = site.data.categories.years | sort | reverse %}
                 {% for year in years %}
                     <li class="list-item">
                         <input 

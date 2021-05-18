@@ -1,15 +1,26 @@
 genres:
   - action
-  - platformer
+  - building
+  - card
+  - color-matching
+  - dating
+  - defense
+  - exploration
   - golf
+  - gravity
+  - light-and-shadow
+  - multiplayer cooperative
+  - physics
+  - pinball
+  - platformer
   - puzzle
   - rhythm
   - space
-  - exploration
-  - light-and-shadow
+  - stealth
   - strategy
-  - building
-  - defense
+  - time-management
+  - turn-based
+  - two-worlds
 
 years:
   - 2020
