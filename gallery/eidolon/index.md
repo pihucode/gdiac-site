@@ -7,5 +7,3 @@ id: eidolon
 year: 2020
 permalink: gallery/eidolon/index.html
 ---
-
-This is a test

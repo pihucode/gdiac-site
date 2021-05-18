@@ -7,5 +7,3 @@ id: astrobeat
 year: 2020
 permalink: gallery/astrobeat/index.html
 ---
-
-This is a test

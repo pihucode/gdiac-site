@@ -7,5 +7,3 @@ id: "deck_jockey"
 year: 2020
 permalink: "gallery/deck_jockey/index.html"
 ---
-
-This is a test

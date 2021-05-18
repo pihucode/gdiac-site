@@ -234,3 +234,60 @@ img{
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+// GAME DOWNLOAD PAGE
+.download-summary{
+  margin-top: 40px;
+}
+.download-description{
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
+.download-links {
+  margin-top: 20px;
+  display:flex;
+}
+.download-link {
+  // display: inline-block;
+  padding: 2px 6px;
+  margin: 0 8px 8px 0;
+  border: 1px solid black;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+.download-media {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.download-screenshot {
+  margin: 10px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+// .download-column{
+//   // display: flex;
+//   // flex-direction: column;
+//   flex: 1 0 0px
+// }
+
+.download-grid{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+}
+
+.download-label{
+  font-weight: bold;
+}
+.download-font{
+  font-size: 1.25rem;
+}
+.download-detail{
+  margin-left: 20px;
+}
+.download-list {
+  list-style-type: none;
+}

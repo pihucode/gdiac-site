@@ -7,5 +7,3 @@ id: spectral
 year: 2020
 permalink: gallery/spectral/index.html
 ---
-
-This is a test

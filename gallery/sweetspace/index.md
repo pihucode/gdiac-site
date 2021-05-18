@@ -7,5 +7,3 @@ id: sweetspace
 year: 2020
 permalink: gallery/sweetspace/index.html
 ---
-
-This is a test

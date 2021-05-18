@@ -1,12 +1,75 @@
 ---
 layout: default
-header: no
+format: download
 ---
 {% capture year %}{{ page.year }}{% endcapture %}
 {% capture gid %}{{ page.id }}{% endcapture %}
 {% assign game = site.data.gallery[year][gid] %}
 
-<img src="{{ game.banner }}" width="970" alt="Game cover image" />
+<!-- <img src="{{ game.banner }}" width="970" alt="Game cover image" />
 
 <h1>{{ game.name }}</h1>
-<p>{{ game.summary }}</p>
+<p>{{ game.summary }}</p> -->
+
+{% if game.banner %}
+<div class="row t30">
+	<div class="small-12 columns">
+        <h1>{{ game.name }}</h1>
+		<img src="{{ game.banner }}" width="970" alt="{{ game.banner | escape_once }}">
+        {% if game.summary %}
+        <p class="teaser download-summary">
+            {{ game.summary }}
+        </p>
+        {% endif %}
+
+        <p class = "download-description">
+            {{ game.description }}
+        </p>
+        <h2>Downloads</h2>
+        <div class = "download-links">
+            {% for button in game.buttons %}
+            <div class = "download-link"><a href="{{button.link}}">{{button.text}}</a></div>
+            {% endfor %}
+        </div>
+        <h2>Details</h2>
+        <!-- <div class = "download-row"></div> -->
+            <!-- {% if game.video %}
+            <div>
+                <video>
+                    <source src="{{game.video}}" type="video/mp4">
+                </video>
+            </div>
+            {% endif %} -->
+
+        <div class = "download-grid">
+            <div class = "download-label download-font">Course</div>
+            <div class ="download-detail download-font">{{ game.course }}</div>
+            <div class = "download-label download-font">Genre</div>
+            <div class ="download-list">
+                <ul class = "download-detail download-list download-font">
+                    {% for genre in game.genres %}
+                    <li>{{ genre }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class = "download-label download-font">Engine</div>
+            <div class ="download-detail download-font">{{ game.engine }}</div>
+            <div class = "download-label download-font">Submitted</div>
+            <div class ="download-detail download-font">{{ game.submitted }}</div>
+            <div class = "download-label download-font">Tested</div>
+            <div class ="download-detail download-font">{{ game.tested }}</div>
+        </div>
+        <!-- </div> -->
+        <div class = "download-media">
+            {% for screenshot in game.screenshots %}
+            <div class = "download-screenshot">
+                <img src="{{screenshot}}" width="300" alt="{{ screenshot | escape_once }}">
+            </div>
+            {% endfor %}
+        </div>
+	</div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+{% endif %}
+
+
+
