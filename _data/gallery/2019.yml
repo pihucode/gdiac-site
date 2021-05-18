@@ -1,0 +1,96 @@
+dummy_game_1:
+  name: "Dummy Game 1"
+  genre: "rhythm, space"
+  genres:
+    - rhythm
+    - space
+  engine: "LibGDX"
+  course: 3152
+  summary: >
+    Navigate through the universe by moving Aria's rocket to the rhythm and engage 
+    with each galaxy's unique music in this thrilling rhythm game.
+  description: |
+    Astrobeat is a fast-paced rhythm game meant to give you that feeling of satisfaction 
+    when every action is perfectly in sync. As the character Aria, you navigate through 
+    the universe by traveling from orbit to orbit. Every movement is to the beat of each 
+    galaxies' unique music style, and Aria's passion is to explore them all! Along the 
+    way, you also have the responsibility to jump start dying planets by completing their 
+    rhythm, all while avoiding dangerous asteroids and lasers.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  video: "trailer.mp4"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Octave Games"
+  members:
+    - Shuyan Huang
+    - Thomas Lee
+    - Wenqi Li
+    - James Meyers
+    - Chris Park
+    - Yingyi Shu
+    - Clara Song
+    - Matthew Suh
+  screenshots:
+    - screenshot1.png
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+  buttons:
+    - text: Windows
+      link: Astrobeat.Win.zip
+    - text: MacOS
+      link: Astrobeat.Mac.zip
+    - text: Linux
+      link: Astrobeat.Linux.zip
+    - text: Guide
+      link: quickstart.png
+
+dummy_game_2:
+  name: "Dummy Game 2"
+  genre: "golf, puzzle"
+  genres:
+    - golf
+    - puzzle
+  course: 3152
+  engine: "LibGDX"
+  summary: >
+    Use careful planning and quick thinking to breathe life back into an ancient 
+    civilization of lonely golems.
+  description: |
+    In a futuristic world now overrun by forests and left as ruins, low energy golems 
+    stumble about aimlessly. Players control a phoenix spirit that revitalizes and 
+    charges each golem upon possession. The goal of the game is to possess each golem 
+    at least once in each level in order to bring them back to life without overcharging 
+    them. Players must navigate the level by strategically positioning golems and 
+    executing difficult shots to reach other golems.
+  submitted: 2020-05-21 23:59:00
+  tested: 2020-05-22 10:10:00
+  header: "header.png"
+  banner: "banner.png"
+  cover: "cover.png"
+  logo: "logo.png"
+  studio: "Ludic8"
+  members:
+    - Aidan Hobler
+    - Connor Pugh
+    - Grant Lee
+    - Helen Wang
+    - Jake Sanders
+    - Jesse Potts
+    - May Chen
+    - Stacy Wei
+  screenshots:
+    - screenshot2.png
+    - screenshot3.png
+    - screenshot4.png
+    - screenshot5.png
+  buttons:
+    - text: Windows
+      link: Modosu.Win.zip
+    - text: MacOS
+      link: Modosu.Mac.zip
+    - text: Guide
+      link: quickstart.pdf
