@@ -127,7 +127,7 @@ img{
 }
 
 .browse-games {
-  width: 85%;
+  width: 70%;
   margin: auto;
   margin-top: 2em;
 }
@@ -138,43 +138,39 @@ img{
   margin-top: 1.4em;
 }
 
+.gallery-main-container {
+  margin-left: 24px;
+}
+
 .games {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-// rectangular game container with summary text
-.details-rect {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  width: 500px;
-  border: 1px solid black;
-  border-radius: 6px;
-  margin: 1em;
-}
-
-.details-rect img {
-  width: 200px;
-  // margin-right: 1.4em;
-}
-
-.details-rect h3 {
-  margin: 0;
-  margin-top: 8px;
-}
-
-.game-info {
-  padding: 1.4em;
+  justify-content: center;
 }
 
 // mini game container without summary text
 .details-mini {
   width: 200px;
-  margin: 32px 16px;
+  margin: 64px 32px;
   margin-top: 0;
+}
+
+.detail-title {
+  margin-top: 16px;
+}
+
+.details-mini:hover .detail-title {
+  text-decoration: underline;
+}
+
+.gallery-page-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-page-btns button {
+  margin: 16px;
 }
 
 // FILTER SIDE COLUMN  ====================
@@ -183,7 +179,6 @@ img{
   width: 200px;
   background: whitesmoke;
   align-self: flex-start;
-  margin-right: 24px;
 }
 
 .list-item {
@@ -290,4 +285,33 @@ img{
 }
 .download-list {
   list-style-type: none;
+}
+
+// Responsive ===========================
+
+@media only screen and (max-width: 1350px) {
+  .browse-games {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .info-container,
+  .gallery {
+    flex-direction: column;
+  }
+
+  .info-container img,
+  .filter-section {
+    margin: auto;
+    margin-bottom: 32px;
+  }
+
+  .gallery {
+    align-items: center;
+  }
+
+  .gallery-main-container {
+    margin-left: 0;
+  }
 }

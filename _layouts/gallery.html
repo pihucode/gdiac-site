@@ -63,9 +63,28 @@ format: gallery
                 </ul>
                 </div>
             </div>
+            <div>
+                <h4 class="collapsible">Release Year</h4>
+                <div class="content">
+                <ul>
+                {% assign years = site.data.categories.years | sort %}
+                {% for year in years %}
+                    <li class="list-item">
+                        <input 
+                        type="checkbox" 
+                        class="check-box"
+                        name="selectedYears" 
+                        value="{{ year }}" 
+                        id="{{ year }}">
+                        <label for="{{ year }}">{{ year }}</label>
+                    </li>
+                {% endfor %}
+                </ul>
+                </div>
+            </div>
         </div>
 
-        <div>
+        <div class="gallery-main-container">
             <div class="games">
                 <p id="no-results" class="hidden">
                     No games match the selected categories!
@@ -77,38 +96,27 @@ format: gallery
 
                 {% for game in site.data.all_games[gameYear] %}
                 {% assign id = id | plus:1 %}
-                
+
                 {% capture gid %}{{ game.id }}{% endcapture %}
                 {% assign yearString = "" | append: year %}
                 {% assign details = site.data.gallery[yearString][gid] %}
-                <!-- <div id="{{ id }}" class="details-rect">
-                    <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
-                    <div class="game-info">
-                        <h3>{{ details.name }}</h3>
-                        <p>by {{ details.studio }} </p>
-                        <p>{{ details.summary }}</p>
-                        {% for genre in details.genres %}
-                        <p class="keyword">{{ genre }}</p>
-                        {% endfor %}
-                    </div>
-                </div> -->
                 <a href="{{site.baseurl}}/gallery/{{ game.id }}">
-                <div id="{{ id }}" class="details-mini">
-                    <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
-                    <div class="detail-container">
-                        <h3>{{ details.name }}</h3>
-                        <p>by {{ details.studio }} </p>
-                        {% for genre in details.genres %}
-                        <p class="keyword">{{ genre }}</p>
-                        {% endfor %}
+                    <div id="{{ id }}" class="details-mini">
+                        <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
+                        <div class="detail-container">
+                            <h3 class="detail-title">{{ details.name }}</h3>
+                            <p>by {{ details.studio }} </p>
+                            {% for genre in details.genres %}
+                            <p class="keyword">{{ genre }}</p>
+                            {% endfor %}
+                        </div>
                     </div>
-                </div>
                 </a>
                 {% endfor %}
                 {% endfor %}
             </div>
         
-            <div class="page-buttons">
+            <div class="gallery-page-btns">
                 <button id="prev-page" onclick="goPrevPage()" class="hidden">
                     <span class="icon-chevron-left"></span> Previous
                 </button>
