@@ -89,6 +89,7 @@ format: gallery
                 </div> -->
                 
                 <div id="{{ id }}" class="details-mini">
+                <a href="{{site.baseurl}}/gallery/{{ game.id }}">
                     <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
                     <div class="detail-container">
                         <h3>{{ details.name }}</h3>
@@ -97,16 +98,17 @@ format: gallery
                         <p class="keyword">{{ genre }}</p>
                         {% endfor %}
                     </div>
+                </a>
                 </div>
                 {% endfor %}
             </div>
         
             <div class="page-buttons">
                 <button id="prev-page" onclick="goPrevPage()" class="hidden">
-                    < Previous
+                    <span class="icon-chevron-left"></span> Previous
                 </button>
                 <button id="next-page" onclick="goNextPage()">
-                    Next >
+                    Next <span class="icon-chevron-right"></span>
                 </button>
             </div>
         </div>

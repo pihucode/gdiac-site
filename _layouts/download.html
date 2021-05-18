@@ -1,0 +1,12 @@
+---
+layout: default
+header: no
+---
+{% capture year %}{{ page.year }}{% endcapture %}
+{% capture gid %}{{ page.id }}{% endcapture %}
+{% assign game = site.data.gallery[year][gid] %}
+
+<img src="{{ game.banner }}" width="970" alt="Game cover image" />
+
+<h1>{{ game.name }}</h1>
+<p>{{ game.summary }}</p>
