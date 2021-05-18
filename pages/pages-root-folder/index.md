@@ -36,12 +36,12 @@ callforaction:
   url: https://tinyletter.com/feeling-responsive
   text: Inform me about new updates and features ›
   style: alert
-permalink: /index.html
+# permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
 # this page as active in the topbar navigation
 #
-homepage: true
+# homepage: true
 ---
 
 <div id="videoModal" class="reveal-modal large" data-reveal="">

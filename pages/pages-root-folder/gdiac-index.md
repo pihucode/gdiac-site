@@ -1,7 +1,9 @@
 ---
 layout: homepage
 header: no
-permalink: "/home/"
+# permalink: "/home/"
+permalink: /index.html
+homepage: true
 
 about_section:
   title: "About GDIAC"
