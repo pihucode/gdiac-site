@@ -11,6 +11,10 @@ genres:
   - building
   - defense
 
+years:
+  - 2020
+  - 2019
+
 courses:
   - 3152
   - 4152

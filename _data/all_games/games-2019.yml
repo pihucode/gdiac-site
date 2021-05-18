@@ -1,0 +1,7 @@
+- name: "Dummy Game 1"
+  id: "dummy_game_1"
+  course: 3152
+
+- name: "Dummy Game 2"
+  id: "dummy_game_2"
+  course: 3152

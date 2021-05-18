@@ -71,9 +71,12 @@ function filterResults() {
     this.currPage = 1;
     
     var id = 0;
-    {% for game in site.data.showcase %}
+    {% for year in site.data.categories.years %}
+    {% assign gameYear = "games-" | append: year %}
+    {% for game in site.data.all_games[gameYear] %}
     {% capture gid %}{{ game.id }}{% endcapture %}
-    {% assign details = site.data.gallery["2020"][gid] %}
+    {% assign yearString = "" | append: year %}
+    {% assign details = site.data.gallery[yearString][gid] %}
     id++;
 
     if (isCheckedEmpty()) { 
@@ -88,6 +91,7 @@ function filterResults() {
             this.checked.selectedCourses.includes(details.course.toString());
         if (matchesGenre && matchesCourse) this.resIds.push(id);
     };
+    {% endfor %}
     {% endfor %}
 
     renderResults();
@@ -108,11 +112,10 @@ function renderResults() {
     var end = ((this.limit) * this.currPage);
     end = end > this.resIds.length ? this.resIds.length : end;
     var resIdPortion = this.resIds.slice(start, end);
-    // console.log(`start, end: ${start}, ${end}`);
-    // console.log('resIdPortion');
-    // console.log(resIdPortion);
     var id = 0;
-    {% for game in site.data.showcase %}
+    {% for year in site.data.categories.years %}
+    {% assign gameYear = "games-" | append: year %}
+    {% for game in site.data.all_games[gameYear] %}
     id++;
     var gameContainer = document.getElementById(id);
     // Show games that belong to the current page
@@ -121,6 +124,7 @@ function renderResults() {
     } else {
         addClass(gameContainer, "hidden");
     };
+    {% endfor %}
     {% endfor %}
 }
 
@@ -136,9 +140,6 @@ function goNextPage() {
     };
     renderPageButtons();
     renderResults();
-    // console.log(`currPage: ${this.currPage}`);
-    // console.log(`maxPage: ${this.maxPage}`);
-    // console.log(this.resIds);
 };
 
 function goPrevPage() {

@@ -72,10 +72,15 @@ format: gallery
                 </p>
                 
                 {% assign id = 0 %}
-                {% for game in site.data.showcase %}
+                {% for year in site.data.categories.years %}
+                {% assign gameYear = "games-" | append: year %}
+
+                {% for game in site.data.all_games[gameYear] %}
                 {% assign id = id | plus:1 %}
+                
                 {% capture gid %}{{ game.id }}{% endcapture %}
-                {% assign details = site.data.gallery["2020"][gid] %}
+                {% assign yearString = "" | append: year %}
+                {% assign details = site.data.gallery[yearString][gid] %}
                 <!-- <div id="{{ id }}" class="details-rect">
                     <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
                     <div class="game-info">
@@ -87,9 +92,8 @@ format: gallery
                         {% endfor %}
                     </div>
                 </div> -->
-                
-                <div id="{{ id }}" class="details-mini">
                 <a href="{{site.baseurl}}/gallery/{{ game.id }}">
+                <div id="{{ id }}" class="details-mini">
                     <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
                     <div class="detail-container">
                         <h3>{{ details.name }}</h3>
@@ -98,8 +102,9 @@ format: gallery
                         <p class="keyword">{{ genre }}</p>
                         {% endfor %}
                     </div>
-                </a>
                 </div>
+                </a>
+                {% endfor %}
                 {% endfor %}
             </div>
         
