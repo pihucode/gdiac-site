@@ -1,8 +1,8 @@
 ---
 layout: page-fullwidth
-title: "2019 Showcase Winners"
-date: "2019-05-20"
-subheadline: "2019 Showcase Winners"
+title: "2018 Showcase Winners"
+date: "2018-05-22"
+subheadline: "2018 Showcase Winners"
 header:
     image: gdiac.jpg
     background-color: "#262930"
@@ -16,18 +16,18 @@ Congratulations to our Showcase Winners.
 
 **Audience Choice**:
 
-- **Intro Division**: Flourish
-- **Mobile Division**: Family Style
+- **Intro Division**: Trino
+- **Mobile Division**: Coalide
 
 **Most Polished Game**:
 
-- **Intro Division**: Starstruck
-- **Mobile Division**: Pig Life Crisis
+- **Intro Division**: ColorMari
+- **Mobile Division**: Split
 
 **Most Innovative Game**:
 
-- **Intro Division**: Prism Break
-- **Mobile Division**: Family Style
+- **Intro Division**: OutOfSync
+- **Mobile Division**: Arcane Tectonics
 
 <!--more-->
 

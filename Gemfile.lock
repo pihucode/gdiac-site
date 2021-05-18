@@ -21,6 +21,7 @@ GEM
     jekyll-asciidoc (2.0.1)
       asciidoctor (>= 1.5.0)
       jekyll (>= 2.3.0)
+    jekyll-datapage-generator (1.3.0)
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
     jekyll-paginate (1.1.0)
@@ -56,6 +57,7 @@ DEPENDENCIES
   coderay (= 1.1.1)
   jekyll
   jekyll-asciidoc
+  jekyll-datapage-generator
   jekyll-gist
   jekyll-paginate
 
