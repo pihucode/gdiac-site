@@ -243,7 +243,7 @@ img{
   transition: max-height 0.2s ease-out;
 }
 
-// GAME DOWNLOAD PAGE
+// GAME DOWNLOAD PAGE ======================================
 .download-summary{
   margin-top: 40px;
 }
@@ -257,20 +257,24 @@ img{
   flex-wrap: wrap;
 }
 .download-link {
-  // display: inline-block;
-  padding: 2px 6px;
-  margin: 0 8px 8px 0;
+  padding: 6px 12px;
+  margin: 4px;
   border: 1px solid black;
   border-radius: 6px;
   text-transform: uppercase;
-
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: all 0.2s;
+}
+.download-link:hover {
+  color:white;
+  background-color:black;
 }
 .download-media {
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
 .download-screenshot {
   margin: 10px;
