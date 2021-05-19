@@ -306,10 +306,13 @@ img{
 .download-list {
   list-style-type: none;
 }
+
+// FEATURED GAMES =============================================
 .featured-games{
   text-align: center;
   position:relative;
   display:flex;
+  margin: 24px 0;
 }
 #featured-center{
   // -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
@@ -352,6 +355,16 @@ img{
   &:hover{
     background-color: rgb(253, 253, 253);
   }
+}
+
+.featured-details img {
+  margin-bottom: 16px !important;
+}
+.featured-details:hover .featured-details-title {
+  text-decoration: underline;
+}
+.featured-details-title {
+  margin: 0;
 }
 // Responsive ===========================
 

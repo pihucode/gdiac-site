@@ -1,7 +1,6 @@
 ---
 layout: homepage
 header: no
-# permalink: "/home/"
 permalink: /index.html
 homepage: true
 
