@@ -42,5 +42,5 @@ news2:
   image:
     url: "https://gdiac.cis.cornell.edu/images/news/gdiac_logo.gif"
     caption: "GDIAC logo"
-  summary: "Despite the chaos of a somewhat online semester, our games have been going strong. In the past year 2019 favorite Family Style has been featured on the Apple App store and now has over 1.5 million downloads on all platforms. It even has its own Reddit channel..."
+  summary: "Congratulations to our Showcase Winners..."
 ---
