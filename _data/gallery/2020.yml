@@ -104,10 +104,10 @@ fallen_flame:
 
 low_on_ink:
   name: "Low On Ink"
-  genre: "golf, color matching"
+  genre: "golf, color-matching"
   genres:
     - golf
-    - color matching
+    - color-matching
   engine: "LibGDX"
   course: 3152
   summary: >
@@ -772,7 +772,8 @@ runecasters:
   name: "Runecasters"
   genre: "turn-based strategy"
   genres:
-    - turn-based strategy
+    - turn-based
+    - strategy
   course: 4152
   summary: >
     Focus on creative combination casting and tactical positioning in this turn-based

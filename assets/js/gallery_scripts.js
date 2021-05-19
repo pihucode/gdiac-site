@@ -17,6 +17,7 @@ window.onload = function () {
     this.allCheckboxes = document.querySelectorAll('.check-box');
     getChecked('selectedGenres');
     getChecked('selectedCourses');
+    getChecked('selectedYears');
 
     // Add event listener to checkboxes
     Array.prototype.forEach.call(this.allCheckboxes, function (el) {
@@ -86,11 +87,16 @@ function filterResults() {
     } else { 
         // otherwise filter through the games that match the selected categories
         var details = {{ details | jsonify}};
-        var matchesGenre = this.checked.selectedGenres.length == 0 ||
+        var year = {{year}};
+        var matchesGenre = this.checked.selectedGenres.length === 0 ||
             this.checked.selectedGenres.some(x => details.genres.includes(x));
-        var matchesCourse = this.checked.selectedCourses.length == 0 ||
+        var matchesCourse = this.checked.selectedCourses.length === 0 ||
             this.checked.selectedCourses.includes(details.course.toString());
-        if (matchesGenre && matchesCourse) this.resIds.push(id);
+        var matchesYear = this.checked.selectedYears.length === 0 ||
+            this.checked.selectedYears.includes("{{year}}");
+        // add to list of resulting ids
+        if (matchesGenre && matchesCourse && matchesYear) 
+            this.resIds.push(id);
     };
     {% endfor %}
     {% endfor %}
@@ -191,4 +197,7 @@ function removeClass(el, className) {
     }
 };
 
+// function printer(item) {
+//     console.log(item);
+// }
 // function increment(index, )

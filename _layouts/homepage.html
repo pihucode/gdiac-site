@@ -3,6 +3,8 @@ layout: default
 format: homepage
 ---
 
+{% include _cornell_logo.html %}
+
 <div class="section-container">
     <h2>Featured Games</h2>
     <p>banner here</p>
@@ -15,7 +17,11 @@ format: homepage
         {% if page.about_section.image %}
         <img src="{{ page.about_section.image.url }}" alt="{{ page.about_section.image.caption }}">
         {% endif %}
-        <p>{{page.about_section.content }} </p>
+        <div>
+            {% for paragraph in page.about_section.paragraphs %}
+            <p>{{ paragraph }} </p>
+            {% endfor %}
+        </div>
     </div>
 </div>
 <hr>
@@ -28,7 +34,11 @@ format: homepage
         {% if page.featured_news.image %}
         <img class="news-img" src="{{ page.featured_news.image.url }}" alt="{{ page.featured_news.image.caption }}">
         {% endif %}
-        <p>{{page.featured_news.content }} </p>
+        <div>
+            {% for paragraph in page.featured_news.paragraphs %}
+            <p>{{ paragraph }} </p>
+            {% endfor %}
+        </div>
     </div>
 </div>
 <hr>
