@@ -1,7 +1,10 @@
 ---
 layout: default
+header: no
 format: download
 ---
+{% include _cornell_logo.html %}
+
 {% capture year %}{{ page.year }}{% endcapture %}
 {% capture gid %}{{ page.id }}{% endcapture %}
 {% assign game = site.data.gallery[year][gid] %}

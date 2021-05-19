@@ -48,6 +48,18 @@ sitemap:
 
 @import "11_syntax-highlighting.scss";
 
+
+// CORNELL LOGO ====================
+.cornell-logo-container {
+  text-align: center;
+  padding: 32px;
+  box-shadow: 0px -12px 42px 0px #cccccc; 
+}
+
+.cornell-logo {
+  max-width: 100% !important;
+}
+
 // FRONTPAGE LAYOUT ====================
 .section-container, hr {
   width: 70%;
