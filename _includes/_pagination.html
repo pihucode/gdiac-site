@@ -9,22 +9,20 @@
 
 {% for post in paginator.posts %}
   <div class="blogs">
-    <div class="">
-      <p class="subheadline">{{ post.date | date: '%B %d, %Y'| prepend: '<span class="subheader">' | append: '</span>' }}</p>
-      <h2 class="blog-subheader"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="blog-container">
-        <div class ="blog-image">
-          {% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft blog-image" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
-        </div>
-        <div class="blog-content">
-          <p>
-
-            <!-- {% if post.meta_description %}{{ post.meta_description }}{% elsif post.teaser %}{{ post.teaser }}{% endif %} -->
-            {{post.excerpt}}
-          </p>
-        </div>
+    <p class="subheadline">{{ post.date | date: '%B %d, %Y'| prepend: '<span class="subheader">' | append: '</span>' }}</p>
+    <h2 class="blog-subheader"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="blog-container">
+      <div class ="blog-image">
+        {% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft blog-image" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
       </div>
-    </div><!-- /.small-12.columns -->
+      <div class="blog-content">
+        <p>
+
+          <!-- {% if post.meta_description %}{{ post.meta_description }}{% elsif post.teaser %}{{ post.teaser }}{% endif %} -->
+          {{post.excerpt}}
+        </p>
+      </div>
+    </div>
   </div><!-- /.row -->
 {% endfor %}
 
