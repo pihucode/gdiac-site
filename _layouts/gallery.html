@@ -11,7 +11,11 @@ format: gallery
         {% if page.about_section.image %}
         <img src="{{ page.about_section.image.url }}" alt="{{ page.about_section.image.caption }}">
         {% endif %}
-        <p>{{page.about_section.content }} </p>
+        <div>
+            {% for paragraph in page.about_section.paragraphs %}
+            <p>{{ paragraph }} </p>
+            {% endfor %}
+        </div>
     </div>
 </div>
 {% endif %}
