@@ -47,6 +47,14 @@ astrobeat:
       link: Astrobeat.Linux.zip
     - text: Guide
       link: quickstart.png
+    - text: Guide
+      link: quickstart.png
+    - text: Guide
+      link: quickstart.png
+    - text: Guide
+      link: quickstart.png
+    - text: Guide
+      link: quickstart.png
 
 fallen_flame:
   name: "Fallen Flame"

@@ -18,7 +18,12 @@ format: gallery
 
 <div class="section-container">
     <h2>Featured Games</h2>
-    <p>banner here</p>
+    {% assign featuredId = 0 %}
+    <div class="featured-games">
+        {% for featuredGame in site.data.featured_games %}
+        <img src="{{site.baseurl}}/gallery/{{featuredGame.id}}/banner.png" alt="{{featuredGame.id}}">
+        {% endfor %}
+    </div>
 </div>
 
 <div class="browse-games">

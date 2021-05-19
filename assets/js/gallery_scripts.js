@@ -10,6 +10,7 @@ var resIds = []; // a list of ids that matches the selected categories
 var limit = 12; // number of games per page
 var currPage = 1; // current page number
 var maxPage = 1; // maximum number of pages
+var currBanner = 1;
 
 window.onload = function () {
     // Get initial checkboxes
@@ -189,3 +190,5 @@ function removeClass(el, className) {
         el.className = el.className.replace(reg, ' ');
     }
 };
+
+// function increment(index, )
