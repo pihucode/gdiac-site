@@ -35,14 +35,14 @@ format: gallery
         <button class = "fadePrev"onclick="prevFeatured('{{featuredGamesSrcArray}}','{{site.baseurl}}')">
             <img src="{{ site.url }}{{ site.baseurl }}/assets/img/left-arrow.svg">
         </button>
-        <a id="featured-left" href="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[1]|strip}}">
-            <img id="featured-left-img"src="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[1]|strip}}/banner.png" alt="{{featured}}">
+        <a id="featured-left" href="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[0]|strip}}">
+            <img id="featured-left-img"src="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[0]|strip}}/banner.png" alt="{{featured}}">
         </a>
-        <a id="featured-center" href = "{{site.baseurl}}/gallery/{{featuredGamesSrcArray[2]|strip}}">
-            <img id="featured-center-img" src="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[2]|strip}}/banner.png" alt="{{featured}}">
+        <a id="featured-center" href = "{{site.baseurl}}/gallery/{{featuredGamesSrcArray[1]|strip}}">
+            <img id="featured-center-img" src="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[1]|strip}}/banner.png" alt="{{featured}}">
         </a>
-        <a id="featured-right" href = "{{site.baseurl}}/gallery/{{featuredGamesSrcArray[3]|strip}}">
-            <img id="featured-right-img" src="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[3]|strip}}/banner.png" alt="{{featured}}">
+        <a id="featured-right" href = "{{site.baseurl}}/gallery/{{featuredGamesSrcArray[2]|strip}}">
+            <img id="featured-right-img" src="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[2]|strip}}/banner.png" alt="{{featured}}">
         </a>
         <button class = "fadeNext" onclick="nextFeatured('{{featuredGamesSrcArray}}','{{site.baseurl}}')">
             <span><img src="{{ site.url }}{{ site.baseurl }}/assets/img/right-arrow.svg"></span>

@@ -40,7 +40,10 @@ format: download
             </div>
             {% endif %} -->
         <div class="download-row">
+            <img class = "download-logo" src="logo.png" alt="{{game.studio}} logo">
             <div class = "download-grid">
+                <div class= "download-label download-font">Studio</div>
+                <div class ="download-detail download-font">{{ game.studio }}</div>
                 <div class = "download-label download-font">Course</div>
                 <div class ="download-detail download-font">{{ game.course }}</div>
                 <div class = "download-label download-font">Genre</div>
@@ -60,8 +63,9 @@ format: download
             </div>
             {% if game.video %}
             <div>
-                <video>
+                <video class = "download-video" controls>
                     <source src="{{game.video}}" type="video/mp4">
+                    This game does not have a trailer or your browser does not support video
                 </video>
             </div>
             {% endif %}

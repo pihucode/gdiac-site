@@ -282,6 +282,19 @@ img{
   display:flex;
   flex-direction:row;
   align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.download-video{
+  width: 100%;
+  min-width:200px;
+  object-fit: contain;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.download-logo {
+  margin-right: 20px;
 }
 
 .download-grid{

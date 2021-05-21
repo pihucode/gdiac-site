@@ -10,9 +10,9 @@ var resIds = []; // a list of ids that matches the selected categories
 var limit = 12; // number of games per page
 var currPage = 1; // current page number
 var maxPage = 1; // maximum number of pages
-var prevBanner = 1;
-var currBanner = 2;
-var nextBanner = 3;
+var prevBanner = 0;
+var currBanner = 1;
+var nextBanner = 2;
 
 window.onload = function () {
     // Get initial checkboxes
