@@ -1,0 +1,26 @@
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/banner_scripts.js"></script>
+
+{% capture featuredGameSrcs %}
+{% for featuredGame in site.data.featured_games %}
+    {{featuredGame.id}}
+    {% if forloop.last == false %}::{% endif%}{% endfor %}
+{% endcapture %}
+{% assign featuredId = 0 %}
+<div class="featured-games">
+    {% assign featuredGamesSrcArray = featuredGameSrcs |split: '::' %}
+    <button class = "fadePrev"onclick="prevFeatured('{{featuredGamesSrcArray}}','{{site.baseurl}}')">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/img/left-arrow.svg">
+    </button>
+    <a id="featured-left" href="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[0]|strip}}">
+        <img id="featured-left-img"src="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[0]|strip}}/banner.png" alt="{{featured}}">
+    </a>
+    <a id="featured-center" href = "{{site.baseurl}}/gallery/{{featuredGamesSrcArray[1]|strip}}">
+        <img id="featured-center-img" src="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[1]|strip}}/banner.png" alt="{{featured}}">
+    </a>
+    <a id="featured-right" href = "{{site.baseurl}}/gallery/{{featuredGamesSrcArray[2]|strip}}">
+        <img id="featured-right-img" src="{{site.baseurl}}/gallery/{{featuredGamesSrcArray[2]|strip}}/banner.png" alt="{{featured}}">
+    </a>
+    <button class = "fadeNext" onclick="nextFeatured('{{featuredGamesSrcArray}}','{{site.baseurl}}')">
+        <span><img src="{{ site.url }}{{ site.baseurl }}/assets/img/right-arrow.svg"></span>
+    </button>
+</div>

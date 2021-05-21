@@ -7,7 +7,7 @@ format: homepage
 
 <div class="section-container">
     <h2>Featured Games</h2>
-    <p>banner here</p>
+    {% include _featured_banner.html %}
 </div>
 
 {% if page.about_section %}
@@ -68,6 +68,6 @@ format: homepage
         </div>
     </div>
 
-    <a class="radius button small btn-margin-top" href="" title="title">See All News</a>
+    <a class="radius button small btn-margin-top" href="{{site.baseurl}}/blog" title="title">See All News</a>
 </div>
 {% endif %}

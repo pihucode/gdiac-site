@@ -1,0 +1,20 @@
+<div>
+{% for game in site.data.featured_games %}
+{% capture gid %}{{ game.id }}{% endcapture %}
+{% capture gyear %}{{ game.year }}{% endcapture %}
+{% assign details = site.data.gallery[gyear][gid] %}
+  <a href="{{site.baseurl}}/gallery/{{ game.id }}">
+      <div class="info-container featured-details">
+          <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
+          <div>
+              <h3 class="featured-details-title">{{ details.name }}</h3>
+              <p>by {{ details.studio }} </p>
+              <p> {{details.summary }} </p>
+              {% for genre in details.genres %}
+              <p class="keyword">{{ genre }}</p>
+              {% endfor %}
+          </div>
+      </div>
+  </a>
+{% endfor %}
+</div>

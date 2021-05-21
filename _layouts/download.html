@@ -26,8 +26,8 @@ format: download
         </p>
         <h2>Downloads</h2>
         <div class = "download-links">
-            {% for button in game.buttons %}
-            <div class = "download-link"><a href="{{button.link}}">{{button.text}}</a></div>
+            {% for button in game.buttons %} 
+            <a class = "download-link" href="{{button.link}}">{{button.text}}</a>
             {% endfor %}
         </div>
         <h2>Details</h2>

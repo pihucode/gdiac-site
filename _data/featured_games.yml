@@ -1,17 +1,23 @@
 - name: Astrobeat
   id: astrobeat
+  year: 2020
 
 - name: Parole In One
   id: parole_in_one
+  year: 2020
 
 - name: Tempus
   id: tempus
+  year: 2020
 
 - name: Spectral
   id: spectral
+  year: 2020
 
 - name: Sweetspace
   id: sweetspace
+  year: 2020
 
 - name: Spectacle
   id: spectacle
+  year: 2020

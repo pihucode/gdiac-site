@@ -243,7 +243,7 @@ img{
   transition: max-height 0.2s ease-out;
 }
 
-// GAME DOWNLOAD PAGE
+// GAME DOWNLOAD PAGE ======================================
 .download-summary{
   margin-top: 40px;
 }
@@ -257,20 +257,24 @@ img{
   flex-wrap: wrap;
 }
 .download-link {
-  // display: inline-block;
-  padding: 2px 6px;
-  margin: 0 8px 8px 0;
+  padding: 6px 12px;
+  margin: 4px;
   border: 1px solid black;
   border-radius: 6px;
   text-transform: uppercase;
-
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: all 0.2s;
+}
+.download-link:hover {
+  color:white;
+  background-color:black;
 }
 .download-media {
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
 .download-screenshot {
   margin: 10px;
@@ -315,10 +319,13 @@ img{
 .download-list {
   list-style-type: none;
 }
+
+// FEATURED GAMES =============================================
 .featured-games{
   text-align: center;
   position:relative;
   display:flex;
+  margin: 24px 0;
 }
 #featured-center{
   // -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
@@ -340,13 +347,13 @@ img{
   left:0px;
   top:0px;
   background-color: #ffffff00;
-  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(253, 253, 253,1));
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(253, 253, 253,1)) !important;
   // background-image: linear-gradient(to right, #fdfdfdff, #fdfdfd00, 100%);
   color:black;
   height: 100%;
   width: 100px;
-  &:hover{
-    background-color: rgb(253, 253, 253);
+  &:hover,&:focus,&:active{
+    background-color: rgb(253, 253, 253) !important;
   }
 }
 .fadeNext {
@@ -358,9 +365,19 @@ img{
   color:black;
   height: 100%;
   width: 100px;
-  &:hover{
-    background-color: rgb(253, 253, 253);
+  &:hover,&:focus,&:active{
+    background-color: rgb(253, 253, 253) !important;
   }
+}
+
+.featured-details img {
+  margin-bottom: 16px !important;
+}
+.featured-details:hover .featured-details-title {
+  text-decoration: underline;
+}
+.featured-details-title {
+  margin: 0;
 }
 // Responsive ===========================
 
