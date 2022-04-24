@@ -14,3 +14,9 @@ Games are grouped by their year (ie, 2019, 2020).
 - Create a folder containing game files (index.md, banner.png, logo.png, etc) in the directory `gallery/`. This folder should be named after the game id
 
 If any new genres are added, include them in the file `_data/categories.yml`.
+
+### Running locally
+for dev: `bundle exec jekyll serve --config _config.yml,_config_dev.yml `
+otherwise default `bundle exec jekyll serve`
+
+
