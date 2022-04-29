@@ -19,4 +19,7 @@ Games are grouped by their year (ie, 2019, 2020).
 
 If any new genres are added, include them in the file `_data/categories.yml`.
 
-To run locally use `bundle exec jekyll serve`
+### Running locally
+
+for dev: `bundle exec jekyll serve --config _config.yml,_config_dev.yml `
+otherwise default `bundle exec jekyll serve`
