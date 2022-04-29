@@ -5,7 +5,41 @@
 - title: Gallery
   url: "/gallery/"
   side: left
-  
+
+- title: About
+  url: "/about/"
+  side: left
+
+- title: Information
+  url: "/information/prospective/"
+  side: left
+  dropdown:
+    - title: "For Prospective Students"
+      url: "/information/prospective/"
+    - title: "For Undergraduate Students"
+      url: "/information/undergraduate/"
+    - title: "For Graduate Students"
+      url: "/information/graduate/"
+    - title: "For Faculty"
+      url: "/information/faculty/"
+    - title: "For Ithaca Community"
+      url: "/information/community/"
+    - title: "For Cornell Alumni"
+      url: "/information/alumni/"
+    - title: "For Press & Media"
+      url: "/information/press-media/"
+
+- title: Programs
+  url: "/programs/minor/"
+  side: left
+  dropdown:
+    - title: "Game Design Minor"
+      url: "/programs/minor/"
+    - title: "Graduate Research"
+      url: "/programs/research/"
+    - title: "Outreach Program"
+      url: "/programs/outreach/"
+
 - title: News
   url: "/blog/"
   side: right

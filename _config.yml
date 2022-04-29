@@ -21,12 +21,12 @@ credits: '<p>Created with &hearts; by GDIAC with <a href="http://jekyllrb.com/" 
 
 # Main author of the website
 # See > authors.yml
-author: GDIAC
+author: GDIAC, Pinxuan Huang, Rose Zhou, Walker White
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: "http://localhost:4000" #"https://phlow.github.io"
-baseurl: "/base" #"/feeling-responsive"
+url: "https://gdiac.cs.cornell.edu/test/archiv2" #"https://phlow.github.io"
+baseurl: "" #"/feeling-responsive"
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -37,8 +37,8 @@ improve_content:
 #
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
-#
-urlimg: "https://phlow.github.io/feeling-responsive/images/"
+# TODO CHANGE URL TO ACTUAL DEPLOYED SITE
+urlimg: "https://gdiac.cs.cornell.edu/test/archiv2/assets/img/"
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
@@ -73,6 +73,7 @@ exclude:
   - LICENSE
   - README.md
   - INSTALL.md
+  - /vendor
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"

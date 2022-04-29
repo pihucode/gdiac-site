@@ -4,7 +4,6 @@ format: gallery
 ---
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/gallery_scripts.js"></script>
 
-{% include _cornell_logo.html %}
 
 {% if page.about_section %}
 <div class="section-container">
@@ -107,9 +106,9 @@ format: gallery
                 {% capture gid %}{{ game.id }}{% endcapture %}
                 {% assign yearString = "" | append: year %}
                 {% assign details = site.data.gallery[yearString][gid] %}
-                <a href="{{site.baseurl}}/gallery/{{ game.id }}">
+                <a href="{{site.url}}/gallery/{{ game.id }}">
                     <div id="{{ id }}" class="details-mini">
-                        <img src="{{site.baseurl}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
+                        <img src="{{site.url}}/gallery/{{game.id}}/cover.png" alt="{{game.id}}">
                         <div class="detail-container">
                             <h3 class="detail-title">{{ details.name }}</h3>
                             <p>by {{ details.studio }} </p>
