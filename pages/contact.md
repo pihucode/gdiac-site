@@ -15,7 +15,7 @@ Cornell University \\
 Ithaca, NY 14853-7501 \\
 Phone: 607-216-4288 \\
 Fax: 607-255-4428 \\
-E-Mail: gdiac@cs.cornell.edu
+E-Mail: [gdiac@cs.cornell.edu](mailto:gdiac@cs.cornell.edu)
 
 Contact information for specific faculty is available from the [Cornell directory][1].
 

@@ -51,14 +51,15 @@
     - title: "Independent Study"
       url: "/courses/independent-study/"
     - title: "Games Showcase"
-      url: "/courses/showcase/"
+      url: "/courses/games-showcase/"
+
+- title: People
+  url: "/people/"
+  side: left
 
 - title: News
   url: "/blog/"
-  side: right
-  # dropdown:
-  #   - title: "News Archive"
-  #     url: "/blog/archive/"
+  side: left
 
 # - title: "Search"
 #   url: "/search/"
@@ -66,4 +67,7 @@
 
 - title: "Contact"
   url: "/contact/"
-  side: right
+  side: left
+# - title: "Contact"
+#   url: "/contact/"
+#   side: right

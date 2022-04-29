@@ -20,7 +20,7 @@ Several universities around the world study game design, game culture, technolog
 
 **[DiGRA: Digital Games Research Association](http://www.digra.org/)**
 
-DiGRA is the association for academics and professionals who research digital games and associated phenomena. It encourages high-quality research on games, and promotes collaboration and dissemination of work by its members.
+DiGRA is the association for academics and professionals who research es and associated phenomena. It encourages high-quality research on games, and promotes collaboration and dissemination of work by its members.
 
 **[IGDA: International Game Developers Association](http://www.igda.org/)**
 

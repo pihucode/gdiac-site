@@ -14,7 +14,7 @@ The Game Design Initiative at Cornell (GDIAC) is a group of faculty, students, s
 
 There are multiple ways to get involved with GDIAC. The easiest is to join one of our [courses][1], starting with CS/INFO 3152. From there you continue to CS/INF 4152 and then build up a portfolio with multiple independent studies.
 
-If you do not satisfy the prerequisites of CS/INFO 3152, but want to get started right away, you can join the Digital Game Alliance. This is a student run organization that is affiliated with GDIAC. In addition to hosting social gaming events, the DGA helps connect students that are interested in studying gaming.
+If you do not satisfy the prerequisites of CS/INFO 3152, but want to get started right away, you can join the Development in Games Association. This is a student run organization that is affiliated with GDIAC. In addition to hosting social gaming events, the DGA helps connect students that are interested in studying gaming.
 
 ---
 

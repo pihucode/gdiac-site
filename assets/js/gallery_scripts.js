@@ -34,7 +34,17 @@ window.onload = function () {
     var coll = document.getElementsByClassName("collapsible");
     var i;
     for (i = 0; i < coll.length; i++) {
+    // uncollapse at start, may be changed later by removing
+    coll[i].classList.toggle("expand-content");
+    var content = coll[i].nextElementSibling;
+    if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+    } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+    } 
+    // end section to uncollapse at start
     coll[i].addEventListener("click", function() {
+        // toggle collapsing
         this.classList.toggle("expand-content");
         var content = this.nextElementSibling;
         if (content.style.maxHeight) {

@@ -32,25 +32,6 @@ format: gallery
     <div class="gallery">
         <div class="filter-section">
             <div>
-                <h4 class="collapsible">Genres</h4>
-                <div class="content">
-                <ul>
-                {% assign genres = site.data.categories.genres | sort %}
-                {% for genre in genres %}
-                    <li class="list-item">
-                        <input 
-                        type="checkbox" 
-                        class="check-box"
-                        name="selectedGenres" 
-                        value="{{ genre }}" 
-                        id="{{ genre }}">
-                        <label for="{{ genre }}">{{ genre }}</label>
-                    </li>
-                {% endfor %}
-                </ul>
-                </div>
-            </div>
-            <div>
                 <h4 class="collapsible">Courses</h4>
                 <div class="content">
                 <ul>
@@ -83,6 +64,27 @@ format: gallery
                         value="{{ year }}" 
                         id="{{ year }}">
                         <label for="{{ year }}">{{ year }}</label>
+                    </li>
+                {% endfor %}
+                </ul>
+                </div>
+            </div>
+            <div>
+                <h4 class="collapsible">Genres</h4>
+                <div class="content">
+                <ul>
+                {% assign genres = site.data.categories.genres | sort %}
+                {% for genre in genres %}
+                    <li class="list-item">
+                        <div class="checkbox-label">
+                            <input 
+                            type="checkbox" 
+                            class="check-box"
+                            name="selectedGenres" 
+                            value="{{ genre }}" 
+                            id="{{ genre }}">
+                            <label for="{{ genre }}">{{ genre }}</label>
+                        </div>
                     </li>
                 {% endfor %}
                 </ul>

@@ -197,6 +197,7 @@ img{
 
 .list-item {
   list-style: none;
+  white-space: nowrap;
 }
 
 .list-item label, .list-item input {
@@ -206,6 +207,14 @@ img{
 .list-item label {
   text-transform: capitalize;
   padding: 8px 24px 8px 0;
+}
+
+// only used on genre due to longer names
+.checkbox-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 // Collapsible style source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible_symbol

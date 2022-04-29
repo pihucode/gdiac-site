@@ -8,7 +8,7 @@
 {% assign featuredId = 0 %}
 <div class="featured-games">
     {% assign featuredGamesSrcArray = featuredGameSrcs |split: '::' %}
-    <button class = "fadePrev"onclick="prevFeatured('{{featuredGamesSrcArray}}','{{site.url}}')">
+    <button id="fadePrev" class = "fadePrev"onclick="prevFeatured('{{featuredGamesSrcArray}}','{{site.url}}')">
         <img src="{{ site.url }}{{ site.baseurl }}/assets/img/left-arrow.svg">
     </button>
     <a id="featured-left" href="{{site.url}}/gallery/{{featuredGamesSrcArray[0]|strip}}">
@@ -20,7 +20,7 @@
     <a id="featured-right" href = "{{site.url}}/gallery/{{featuredGamesSrcArray[2]|strip}}">
         <img id="featured-right-img" src="{{ site.url }}/gallery/{{featuredGamesSrcArray[2]|strip}}/banner.png" alt="{{featured}}">
     </a>
-    <button class = "fadeNext" onclick="nextFeatured('{{featuredGamesSrcArray}}','{{site.baseurl}}')">
+    <button id="fadeNext" class = "fadeNext" onclick="nextFeatured('{{featuredGamesSrcArray}}','{{site.baseurl}}')">
         <span><img src="{{ site.url }}/assets/img/right-arrow.svg"></span>
     </button>
 </div>

@@ -24,7 +24,6 @@ function nextFeatured(banners, baseurl) {
   currBanner = nextBanner;
   nextBanner += 1;
   var banners = banners.trim().split(" ");
-  // console.log(banners);
   if( nextBanner >= banners.length){
       nextBanner = 0;
   }
@@ -34,4 +33,6 @@ function nextFeatured(banners, baseurl) {
   document.getElementById("featured-left").href = baseurl + "/gallery/" + banners[prevBanner];
   document.getElementById("featured-center").href = baseurl + "/gallery/" + banners[currBanner];
   document.getElementById("featured-right").href = baseurl + "/gallery/" + banners[nextBanner];
+  // document.getElementById("fadeNext").style.backgroundColor = '#ffffff00';
+  // document.getElementById("fadeNext").style.backgroundImage = 'linear-gradient(to right, rgba(255,0,0,0), rgba(253, 253, 253,1))!important';
 }
