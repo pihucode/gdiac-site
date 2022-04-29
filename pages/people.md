@@ -12,7 +12,7 @@ The Game Design Initiative At Cornell University started as a feasibility study 
 
 ## Walker White (Director)
 
-![Image of Walker White]({{site.urlimage}}/images/walker-photo.jpg)
+![Image of Walker White]({{site.url}}/{{site.urlimage}}/images/walker-photo.jpg)
 
 Currently, GDIAC is led by [Walker White](http://www.cs.cornell.edu/~wmwhite). Dr. White is a faculty member in the computer science department and the project leader of the [data-driven games](http://www.cs.cornell.edu/database/games/) research project. His current research interests include software design processes in games, gameplay analytics, and formal analysis of game mechanics.
 

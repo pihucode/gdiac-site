@@ -65,4 +65,4 @@ The game industry is very interested in hands on experience. Some companies offe
 [2]: {{ site.url }}/gallery/
 [3]: {{ site.url }}/courses/other-courses/
 [4]: {{ site.url }}/courses/about/
-[4]: {{ site.url }}/programs/minor/
+[5]: {{ site.url }}/programs/minor/
