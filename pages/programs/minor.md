@@ -16,62 +16,58 @@ To complete the minor, a student must take at least six (6) courses (18 credit m
 
 ### Required Course
 
-CS/INFO 3152: Introduction to Computer Game Development
+[CS/INFO 3152: Introduction to Computer Game Development](http://www.cs.cornell.edu/courses/cs3152)
 
-Additional Required Course (choose one)
-CS/INFO 4152: Advanced Topics in Computer Game Development
+### Additional Required Course (choose one)
 
-CS/INFO 4154: Analytics-driven Game Design
+[CS/INFO 4152: Advanced Topics in Computer Game Development](http://www.cs.cornell.edu/courses/cs4152)
 
-Additional Courses (choose four)
+CS/INFO 4154: Analytics-driven Game Design (Not offered currently)
+
+### Additional Courses (choose four)
+
 Because of the interdisciplinary nature of game design, students are not allowed to count courses within their own major towards their additional courses.
 
-CS-focused Courses
+### CS-focused Courses
 
-CS/ENGRD 2110: Object-Oriented Programming and Data Structures
+[CS/ENGRD 2110: Object-Oriented Programming and Data Structures](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=160280)
 
-CS/INFO 3300: Data-Driven Web Applications
+[CS/INFO 3300: Data-Driven Web Applications](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=160286)
 
-CS 4620/ARCH 3704: Introduction to Computer Graphics
+[CS 4620/ARCH 3704: Introduction to Computer Graphics](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=160303)
 
-CS 4700: Foundations of Artificial Intelligence
+[CS 4700: Foundations of Artificial Intelligence](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=160306)
 
-CS 5625: Interactive Computer Graphics
+[CS 5625: Interactive Computer Graphics](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=160325)
 
-CS 5643: Physically Based Animation for Computer Graphics
+[CS 5643: Physically Based Animation for Computer Graphics](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=160326)
 
-Other Courses
+### Other Courses
 
-ART 2701: Introduction to Digital Media
+[ART 2701: Introduction to Digital Media](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=158700)
 
-ART 3704: Interactive Digital Media
+[ART 3704: Interactive Digital Media](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=158721)
 
-COMM 4220: Psychology of Entertainment Media
+[COMM 4220: Psychology of Entertainment Media](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=160098)
 
-ECE 4760: Digital Systems Design Using Microcontrollers
+[ECE 4760: Digital Systems Design Using Microcontrollers](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=160772)
 
-INFO/COMM 2450: Communication and Technology
+[INFO/COMM 2450: Communication and Technology](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=162594)
 
-INFO/COMM 3450: Human-Computer Interaction Design
+[INFO/COMM 3450: Human-Computer Interaction Design](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=162600)
 
-INFO/COMM 4400: Advanced Human-Computer Interaction Design
+[INFO/COMM 4400: Advanced Human-Computer Interaction Design](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=162612)
 
-MUSIC 2421: Performing with Computers
+[MUSIC 2421: Performing with Computers](http://digital.music.cornell.edu/music2421)
 
-MUSIC 3421: Scoring the Moving Image
+[MUSIC 3421: Scoring the Moving Image](http://digital.music.cornell.edu/music3421)
 
-MUSIC 3431/PMA 3680: Sound Design and Digital Audio
+[MUSIC 3431/PMA 3680: Sound Design and Digital Audio](http://digital.music.cornell.edu/music3421)
 
-PSYCH/COMM 3420/VISST 3422: Human Perception: Graphics, Art, and Visual Display
+[PSYCH/COMM 3420/VISST 3422: Human Perception: Graphics, Art, and Visual Display](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=164549)
 
-SOC 4340: Online Social and Information Networks
+[SOC 4340: Online Social and Information Networks](http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=164799)
 
-Academic Standards
-Students must earn a letter grade of C or better for each course in the minor. For more details, see the official requirements page.
+### Academic Standards
 
-[1]: {{ site.url }}/courses/gdiac-courses/
-[2]: {{ site.url }}/gallery/
-[3]: {{ site.url }}/courses/other-courses/
-[4]: {{ site.url }}/courses/about/
-[5]: {{ site.url }}/programs/minor/
-[6]: {{ site.url }}/programs/research/
+Students must earn a letter grade of C or better for each course in the minor. For more details, see the [official requirements page](https://www.cs.cornell.edu/undergrad/minors/game-design-minor).

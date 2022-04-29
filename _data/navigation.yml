@@ -40,6 +40,19 @@
     - title: "Outreach Program"
       url: "/programs/outreach/"
 
+- title: Courses
+  url: "/courses/gdiac-courses/"
+  side: left
+  dropdown:
+    - title: "GDIAC Courses"
+      url: "/courses/gdiac-courses"
+    - title: "Affiliated Courses"
+      url: "/courses/other-courses/"
+    - title: "Independent Study"
+      url: "/courses/independent-study/"
+    - title: "Games Showcase"
+      url: "/courses/showcase/"
+
 - title: News
   url: "/blog/"
   side: right
