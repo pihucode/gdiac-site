@@ -1,7 +1,5 @@
 # gdiac-site
 
-**Replace the content of the contact page and the urls of the footer**
-
 # Site Data
 
 ### To change Featured Games:
@@ -22,4 +20,5 @@ If any new genres are added, include them in the file `_data/categories.yml`.
 ### Running locally
 
 for dev: `bundle exec jekyll serve --config _config.yml,_config_dev.yml `
-otherwise default `bundle exec jekyll serve`
+to build: `bundle exec jekyll build`
+to change base URL: change in `_config.yml` the `url:`
