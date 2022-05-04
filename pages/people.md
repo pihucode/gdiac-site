@@ -19,3 +19,11 @@ Currently, GDIAC is led by [Walker White](http://www.cs.cornell.edu/~wmwhite). D
 Walker White is also the primary instructor for the [game design courses]({{ site.url }}/courses/gdiac-courses/), and his the primary advisor for [independent studies]({{ site.url }}/courses/independent-study/).
 
 ---
+
+## Traci Nathans-Kelly
+
+![Image of Traci Nathans-Kelly]({{site.url}}/{{site.urlimage}}/images/traci-photo.jpg)
+
+As part of the Engineering Communications Program since 2012, Nathans-Kelly has a special interest in social justice and techquity issues. She interacts daily to help engineers and pre-professional engineers to hone their technical communication and leadership skills and their technical messaging, whether it be via presentations, on paper, in meetings and teams, or online channels. She has worked with practicing professional engineers, technical experts, scientists, and related field experts for over 20 years, helping them to strengthen their abilities to become impactful contributors in their organizations, such as in the games industry.
+
+She is very active in IEEE, where her current work includes co-authoring the “English for Technical Professionals” coursework for ILN; committee commitments include the IEEE Continuing Education Committee, the Educational Activities Committee, and the IEEE Teaching Excellence Editorial Board. She also served as the editor for the IEEE Professional Communication book series for Professional Engineering Communication, with 12 books on the shelves for the series. The book Slide Rules: Design, Build, and Archive Presentations in the Engineering and Technical Fields was co-authored with Christine G. Nicometo.
