@@ -21,4 +21,4 @@ If any new genres are added, include them in the file `_data/categories.yml`.
 
 for dev: `bundle exec jekyll serve --config _config.yml,_config_dev.yml `
 to build: `bundle exec jekyll build`
-to change base URL: change in `_config.yml` the `url:`
+to change base URL: change in `_config.yml` the `url:` and `urlimage:`
